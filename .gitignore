@@ -41,3 +41,10 @@ yarn-error.log*
 
 # Storybook
 storybook-static
+
+# Claude Code
+.claude/
+
+# Data files
+daten/
+analyze_daten.py
