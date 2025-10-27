@@ -8,7 +8,7 @@
   "products": [
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 295850,
@@ -17,7 +17,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 3950,
@@ -26,7 +26,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 151750,
@@ -35,7 +35,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 118050,
@@ -44,7 +44,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 89300,
@@ -53,7 +53,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 102550,
@@ -62,7 +62,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 29050,
@@ -71,7 +71,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 128600,
@@ -80,7 +80,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 84800,
@@ -89,7 +89,7 @@
     },
     {
       "productCode": "5220-050",
-      "description": "5220-050 - Wohnbauförderung Amt 50",
+      "description": "Wohnbauförderung Amt 50 (5220-0...)",
       "amt": "50 - Sozialamt",
       "teilhaushalt": "Dezernat V",
       "value": 2350,
@@ -98,7 +98,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 60750,
@@ -107,7 +107,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 16950,
@@ -116,7 +116,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 6826500,
@@ -125,7 +125,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 3228150,
@@ -134,7 +134,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 4031450,
@@ -143,7 +143,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 333000,
@@ -152,7 +152,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 800850,
@@ -161,7 +161,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 811300,
@@ -170,7 +170,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 1440650,
@@ -179,7 +179,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 1160050,
@@ -188,7 +188,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 3691750,
@@ -197,7 +197,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 1251250,
@@ -206,7 +206,7 @@
     },
     {
       "productCode": "5220-064",
-      "description": "5220-064 - Wohnbauförderung Amt 64",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 685400,
@@ -215,7 +215,7 @@
     },
     {
       "productCode": "5220-050",
-      "description": "5220-050 - Wohnbauförderung Amt 50",
+      "description": "Wohnbauförderung Amt 50 (5220-0...)",
       "amt": "50 - Sozialamt",
       "teilhaushalt": "Dezernat V",
       "value": 1245000,
@@ -224,7 +224,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 1023450,
@@ -233,7 +233,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 632700,
@@ -242,7 +242,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 10000,
@@ -251,7 +251,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 142100,
@@ -260,7 +260,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2200,
@@ -269,7 +269,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 85450,
@@ -278,7 +278,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 59550,
@@ -287,7 +287,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 44800,
@@ -296,7 +296,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 51600,
@@ -305,7 +305,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 14800,
@@ -314,7 +314,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 80800,
@@ -323,7 +323,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 48350,
@@ -332,7 +332,7 @@
     },
     {
       "productCode": "5220-050",
-      "description": "5220-050 - Wohnbauförderung Amt 50",
+      "description": "Wohnbauförderung Amt 50 (5220-0...)",
       "amt": "50 - Sozialamt",
       "teilhaushalt": "Dezernat V",
       "value": 1300,
@@ -341,7 +341,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 42150,
@@ -350,7 +350,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 9700,
@@ -359,7 +359,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 319250,
@@ -368,7 +368,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 139350,
@@ -377,7 +377,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 172850,
@@ -386,7 +386,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 14700,
@@ -395,7 +395,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 35000,
@@ -404,7 +404,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 35750,
@@ -413,7 +413,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 63750,
@@ -422,7 +422,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 51700,
@@ -431,7 +431,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 161750,
@@ -440,7 +440,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 55100,
@@ -449,7 +449,7 @@
     },
     {
       "productCode": "5220-064",
-      "description": "5220-064 - Wohnbauförderung Amt 64",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 29750,
@@ -458,7 +458,7 @@
     },
     {
       "productCode": "5220-050",
-      "description": "5220-050 - Wohnbauförderung Amt 50",
+      "description": "Wohnbauförderung Amt 50 (5220-0...)",
       "amt": "50 - Sozialamt",
       "teilhaushalt": "Dezernat V",
       "value": 60350,
@@ -467,7 +467,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 45250,
@@ -476,7 +476,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 27500,
@@ -485,7 +485,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1329300,
@@ -494,7 +494,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 628200,
@@ -503,7 +503,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 774700,
@@ -512,7 +512,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 66350,
@@ -521,7 +521,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 160950,
@@ -530,7 +530,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 162800,
@@ -539,7 +539,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 290500,
@@ -548,7 +548,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 229800,
@@ -557,7 +557,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 727050,
@@ -566,7 +566,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 246050,
@@ -575,7 +575,7 @@
     },
     {
       "productCode": "5220-064",
-      "description": "5220-064 - Wohnbauförderung Amt 64",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 133100,
@@ -584,7 +584,7 @@
     },
     {
       "productCode": "5220-050",
-      "description": "5220-050 - Wohnbauförderung Amt 50",
+      "description": "Wohnbauförderung Amt 50 (5220-0...)",
       "amt": "50 - Sozialamt",
       "teilhaushalt": "Dezernat V",
       "value": 248650,
@@ -593,7 +593,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 195900,
@@ -602,7 +602,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 124900,
@@ -611,7 +611,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 50,
@@ -620,7 +620,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -629,7 +629,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -638,7 +638,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 17600,
@@ -647,7 +647,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 10800,
@@ -656,7 +656,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 14100,
@@ -665,7 +665,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 3900,
@@ -674,7 +674,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 2450,
@@ -683,7 +683,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -692,7 +692,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 15000,
@@ -701,7 +701,7 @@
     },
     {
       "productCode": "5220-064",
-      "description": "5220-064 - Wohnbauförderung Amt 64",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 350,
@@ -710,7 +710,7 @@
     },
     {
       "productCode": "5220-050",
-      "description": "5220-050 - Wohnbauförderung Amt 50",
+      "description": "Wohnbauförderung Amt 50 (5220-0...)",
       "amt": "50 - Sozialamt",
       "teilhaushalt": "Dezernat V",
       "value": 850,
@@ -719,7 +719,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 350,
@@ -728,7 +728,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 900,
@@ -737,7 +737,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 4750,
@@ -746,7 +746,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 13500,
@@ -755,7 +755,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1350,
@@ -764,7 +764,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 3500,
@@ -773,7 +773,7 @@
     },
     {
       "productCode": "5220-064",
-      "description": "5220-064 - Wohnbauförderung Amt 64",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 1450,
@@ -782,7 +782,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 52200,
@@ -791,7 +791,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 4900,
@@ -800,7 +800,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 6750,
@@ -809,7 +809,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 3300,
@@ -818,7 +818,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 4800,
@@ -827,7 +827,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 9000,
@@ -836,7 +836,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 9850,
@@ -845,7 +845,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 5200,
@@ -854,7 +854,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 12500,
@@ -863,7 +863,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 4600,
@@ -872,7 +872,7 @@
     },
     {
       "productCode": "5220-064",
-      "description": "5220-064 - Wohnbauförderung Amt 64",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 450,
@@ -881,7 +881,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 3600,
@@ -890,7 +890,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 2000,
@@ -899,7 +899,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 250,
@@ -908,7 +908,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 200,
@@ -917,7 +917,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 300,
@@ -926,7 +926,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -935,7 +935,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -944,7 +944,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -953,7 +953,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -962,7 +962,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -971,7 +971,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -980,7 +980,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -989,7 +989,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -998,7 +998,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -1007,7 +1007,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -1016,7 +1016,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 50,
@@ -1025,7 +1025,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -1034,7 +1034,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -1043,7 +1043,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 150,
@@ -1052,7 +1052,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -1061,7 +1061,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 4750,
@@ -1070,7 +1070,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -1079,7 +1079,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 4000,
@@ -1088,7 +1088,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 750,
@@ -1097,7 +1097,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 750,
@@ -1106,7 +1106,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 1500,
@@ -1115,7 +1115,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 1500,
@@ -1124,7 +1124,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -1133,7 +1133,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 4000,
@@ -1142,7 +1142,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 1100,
@@ -1151,7 +1151,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 1000,
@@ -1160,7 +1160,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 600,
@@ -1169,7 +1169,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 7500,
@@ -1178,7 +1178,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 15800,
@@ -1187,7 +1187,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 9000,
@@ -1196,7 +1196,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -1205,7 +1205,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 1000,
@@ -1214,7 +1214,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 1000,
@@ -1223,7 +1223,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 1000,
@@ -1232,7 +1232,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 1000,
@@ -1241,7 +1241,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 30000,
@@ -1250,7 +1250,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 9100,
@@ -1259,7 +1259,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 7000,
@@ -1268,7 +1268,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -1277,7 +1277,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1000,
@@ -1286,7 +1286,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1100,
@@ -1295,7 +1295,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 2000,
@@ -1304,7 +1304,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 5000,
@@ -1313,7 +1313,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 5000,
@@ -1322,7 +1322,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 48700,
@@ -1331,7 +1331,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 16000,
@@ -1340,7 +1340,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -1349,7 +1349,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -1358,7 +1358,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 1000,
@@ -1367,7 +1367,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 1000,
@@ -1376,7 +1376,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 1000,
@@ -1385,7 +1385,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 143100,
@@ -1394,7 +1394,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 21950,
@@ -1403,7 +1403,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 17850,
@@ -1412,7 +1412,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 8800,
@@ -1421,7 +1421,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 4800,
@@ -1430,7 +1430,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 6000,
@@ -1439,7 +1439,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 26000,
@@ -1448,7 +1448,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 5300,
@@ -1457,7 +1457,7 @@
     },
     {
       "productCode": "5220-064",
-      "description": "5220-064 - Wohnbauförderung Amt 64",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 1000,
@@ -1466,7 +1466,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 5000,
@@ -1475,7 +1475,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 300,
@@ -1484,7 +1484,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -1493,7 +1493,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 950,
@@ -1502,7 +1502,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -1511,7 +1511,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -1520,7 +1520,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -1529,7 +1529,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -1538,7 +1538,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -1547,7 +1547,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -1556,7 +1556,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 520000,
@@ -1565,7 +1565,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -1574,7 +1574,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 534000,
@@ -1583,7 +1583,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 25000,
@@ -1592,7 +1592,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 52400,
@@ -1601,7 +1601,7 @@
     },
     {
       "productCode": "5220-050",
-      "description": "5220-050 - Wohnbauförderung Amt 50",
+      "description": "Wohnbauförderung Amt 50 (5220-0...)",
       "amt": "50 - Sozialamt",
       "teilhaushalt": "Dezernat V",
       "value": 5000,
@@ -1610,7 +1610,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 20000,
@@ -1619,7 +1619,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 118500,
@@ -1628,7 +1628,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 50,
@@ -1637,7 +1637,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 10000,
@@ -1646,7 +1646,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 5000,
@@ -1655,7 +1655,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 450,
@@ -1664,7 +1664,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 250000,
@@ -1673,7 +1673,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 702500,
@@ -1682,7 +1682,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 35000,
@@ -1691,7 +1691,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 50,
@@ -1700,7 +1700,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 1000,
@@ -1709,7 +1709,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 800,
@@ -1718,7 +1718,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 1000,
@@ -1727,7 +1727,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -1736,7 +1736,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 250000,
@@ -1745,7 +1745,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 14739400,
@@ -1754,7 +1754,7 @@
     },
     {
       "productCode": "5220-064",
-      "description": "5220-064 - Wohnbauförderung Amt 64",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 1883500,
@@ -1763,7 +1763,7 @@
     },
     {
       "productCode": "5220-064",
-      "description": "5220-064 - Wohnbauförderung Amt 64",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 430000,
@@ -1772,7 +1772,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -1781,7 +1781,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2400,
@@ -1790,7 +1790,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 406250,
@@ -1799,7 +1799,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 65300,
@@ -1808,7 +1808,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 136600,
@@ -1817,7 +1817,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 26150,
@@ -1826,7 +1826,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 37750,
@@ -1835,7 +1835,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 70550,
@@ -1844,7 +1844,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 78200,
@@ -1853,7 +1853,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 41450,
@@ -1862,7 +1862,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 165000,
@@ -1871,7 +1871,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 72950,
@@ -1880,7 +1880,7 @@
     },
     {
       "productCode": "5220-064",
-      "description": "5220-064 - Wohnbauförderung Amt 64",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 58550,
@@ -1889,7 +1889,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 50750,
@@ -1898,7 +1898,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 28550,
@@ -1907,7 +1907,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 19200,
@@ -1916,7 +1916,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 3000,
@@ -1925,7 +1925,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 8000,
@@ -1934,7 +1934,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 10500,
@@ -1943,7 +1943,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 13000,
@@ -1952,7 +1952,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 10500,
@@ -1961,7 +1961,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 6000,
@@ -1970,7 +1970,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -1979,7 +1979,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 150,
@@ -1988,7 +1988,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 700,
@@ -1997,7 +1997,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 200,
@@ -2006,7 +2006,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 550,
@@ -2015,7 +2015,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -2024,7 +2024,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 200,
@@ -2033,7 +2033,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 300,
@@ -2042,7 +2042,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 300,
@@ -2051,7 +2051,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 200,
@@ -2060,7 +2060,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 800,
@@ -2069,7 +2069,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2500,
@@ -2078,7 +2078,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 3000,
@@ -2087,7 +2087,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 7700,
@@ -2096,7 +2096,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 1000,
@@ -2105,7 +2105,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 1000,
@@ -2114,7 +2114,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 1000,
@@ -2123,7 +2123,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 4500,
@@ -2132,7 +2132,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -2141,7 +2141,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 20000,
@@ -2150,7 +2150,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 9000,
@@ -2159,7 +2159,7 @@
     },
     {
       "productCode": "5220-064",
-      "description": "5220-064 - Wohnbauförderung Amt 64",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 3300,
@@ -2168,7 +2168,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 6000,
@@ -2177,7 +2177,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 5500,
@@ -2186,7 +2186,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 4100,
@@ -2195,7 +2195,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 300,
@@ -2204,7 +2204,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 300,
@@ -2213,7 +2213,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 300,
@@ -2222,7 +2222,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 300,
@@ -2231,7 +2231,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 300,
@@ -2240,7 +2240,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 40400,
@@ -2249,7 +2249,7 @@
     },
     {
       "productCode": "5220-064",
-      "description": "5220-064 - Wohnbauförderung Amt 64",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 1600,
@@ -2258,7 +2258,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 11550,
@@ -2267,7 +2267,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 200,
@@ -2276,7 +2276,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 22750,
@@ -2285,7 +2285,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 4150,
@@ -2294,7 +2294,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 4450,
@@ -2303,7 +2303,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 9000,
@@ -2312,7 +2312,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -2321,7 +2321,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 2500,
@@ -2330,7 +2330,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 1500,
@@ -2339,7 +2339,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 3000,
@@ -2348,7 +2348,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 2500,
@@ -2357,7 +2357,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 33400,
@@ -2366,7 +2366,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 5500,
@@ -2375,7 +2375,7 @@
     },
     {
       "productCode": "5220-064",
-      "description": "5220-064 - Wohnbauförderung Amt 64",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 3550,
@@ -2384,7 +2384,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 6000,
@@ -2393,7 +2393,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 1500,
@@ -2402,7 +2402,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -2411,7 +2411,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 7800,
@@ -2420,7 +2420,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 6200,
@@ -2429,7 +2429,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 10000,
@@ -2438,7 +2438,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 2000,
@@ -2447,7 +2447,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 2000,
@@ -2456,7 +2456,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 2000,
@@ -2465,7 +2465,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 2000,
@@ -2474,7 +2474,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 6500,
@@ -2483,7 +2483,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 2200,
@@ -2492,7 +2492,7 @@
     },
     {
       "productCode": "5220-064",
-      "description": "5220-064 - Wohnbauförderung Amt 64",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 4000,
@@ -2501,7 +2501,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 1600,
@@ -2510,7 +2510,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 1300,
@@ -2519,7 +2519,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1500,
@@ -2528,7 +2528,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -2537,7 +2537,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -2546,7 +2546,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -2555,7 +2555,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -2564,7 +2564,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 10000,
@@ -2573,7 +2573,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 9000,
@@ -2582,7 +2582,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 10000,
@@ -2591,7 +2591,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 1000,
@@ -2600,7 +2600,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 650,
@@ -2609,7 +2609,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1600,
@@ -2618,7 +2618,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 650,
@@ -2627,7 +2627,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 50,
@@ -2636,7 +2636,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 50,
@@ -2645,7 +2645,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 50,
@@ -2654,7 +2654,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 50,
@@ -2663,7 +2663,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 50,
@@ -2672,7 +2672,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 1500,
@@ -2681,7 +2681,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 300,
@@ -2690,7 +2690,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 300,
@@ -2699,7 +2699,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -2708,7 +2708,7 @@
     },
     {
       "productCode": "5111-926",
-      "description": "5111-926 - Räuml. Plan.-u. Entwickl.maßn. Dez VI",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Dez VI (5111-9...)",
       "amt": "926 - Dezernat VI",
       "teilhaushalt": "Dezernat VI",
       "value": 216200,
@@ -2717,7 +2717,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 32000,
@@ -2726,7 +2726,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 25822.33,
@@ -2735,7 +2735,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 16909.61,
@@ -2744,7 +2744,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 38839.58,
@@ -2753,7 +2753,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 2842.82,
@@ -2762,7 +2762,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 4186.92,
@@ -2771,7 +2771,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 31130.47,
@@ -2780,7 +2780,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 9410.37,
@@ -2789,7 +2789,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 6454.41,
@@ -2798,7 +2798,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 10041.66,
@@ -2807,7 +2807,7 @@
     },
     {
       "productCode": "5210",
-      "description": "5210 - Bau- und Grundstücksordnung",
+      "description": "Bau- und Grundstücksordnung (5210...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 2748.83,
@@ -2816,7 +2816,7 @@
     },
     {
       "productCode": "5220-064",
-      "description": "5220-064 - Wohnbauförderung Amt 64",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 9108.52,
@@ -2825,7 +2825,7 @@
     },
     {
       "productCode": "5220-050",
-      "description": "5220-050 - Wohnbauförderung Amt 50",
+      "description": "Wohnbauförderung Amt 50 (5220-0...)",
       "amt": "50 - Sozialamt",
       "teilhaushalt": "Dezernat V",
       "value": 12050.34,
@@ -2834,7 +2834,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 2617.92,
@@ -2843,7 +2843,7 @@
     },
     {
       "productCode": "5230",
-      "description": "5230 - Denkmalschutz und -pflege",
+      "description": "Denkmalschutz und -pflege (5230...)",
       "amt": "63 - Amt für Bauordnung und Denkmalpflege",
       "teilhaushalt": "Dezernat VI",
       "value": 785.37,
@@ -2852,7 +2852,7 @@
     },
     {
       "productCode": "5111-066",
-      "description": "5111-066 - Räuml. Plan.-u. Entwickl.maßn. Amt 66",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 66 (5111-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2062.56,
@@ -2861,7 +2861,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 1744067.75,
@@ -2870,7 +2870,7 @@
     },
     {
       "productCode": "5220-064",
-      "description": "5220-064 - Wohnbauförderung Amt 64",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 760316.86,
@@ -2879,7 +2879,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 18000,
@@ -2888,7 +2888,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 9000,
@@ -2897,7 +2897,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 13000,
@@ -2906,7 +2906,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 24000,
@@ -2915,7 +2915,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 27000,
@@ -2924,7 +2924,7 @@
     },
     {
       "productCode": "5120",
-      "description": "5120 - Flächen-u.Grundstücksbez.Daten u.Grundl.",
+      "description": "Flächen-u.Grundstücksbez.Daten u.Grundl. (5120...)",
       "amt": "62 - Amt für Geoinformation und Bodenordnung",
       "teilhaushalt": "Dezernat VI",
       "value": 14500,
@@ -2933,7 +2933,7 @@
     },
     {
       "productCode": "5220-064",
-      "description": "5220-064 - Wohnbauförderung Amt 64",
+      "description": "Wohnbauförderung Amt 64 (5220-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 3000,
@@ -2942,7 +2942,7 @@
     },
     {
       "productCode": "5111-061",
-      "description": "5111-061 - Räuml. Plan.-u. Entwickl.maßn. Amt 61",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 61 (5111-0...)",
       "amt": "61 - Stadtplanungsamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1000,
@@ -2951,7 +2951,7 @@
     },
     {
       "productCode": "5111-064",
-      "description": "5111-064 - Räuml. Plan.-u. Entwickl.maßn. Amt 64",
+      "description": "Räuml. Plan.-u. Entwickl.maßn. Amt 64 (5111-0...)",
       "amt": "64 - Amt für Wohnungsbau und Stadterneuerung",
       "teilhaushalt": "Dezernat VI",
       "value": 30000,

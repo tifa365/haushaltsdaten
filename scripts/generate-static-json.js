@@ -44,20 +44,44 @@ function createTreemapHierarchy(budgetData, year) {
       }
 
       products[pc].value += item[field];
+
+      // Format account description: "Description (AccountCode...)"
+      let accountDesc = item.accountDescription;
+      const accountMatch = accountDesc.match(/^([\d-]+)\s*-\s*(.+)$/);
+      if (accountMatch) {
+        const accountCode = accountMatch[1];
+        const accountName = accountMatch[2];
+        const shortAccount = accountCode.substring(0, 6);
+        accountDesc = `${accountName} (${shortAccount}...)`;
+      }
+
       products[pc].items.push({
-        name: item.accountDescription,
+        name: accountDesc,
         value: item[field],
         amt: item.amt
       });
     }
 
     // Build product children
-    const productChildren = Object.entries(products).map(([pc, prodData]) => ({
-      id: pc,
-      name: prodData.description,
-      value: prodData.value,
-      children: prodData.items.length > 1 ? prodData.items : []
-    }));
+    const productChildren = Object.entries(products).map(([pc, prodData]) => {
+      // Format: "Description (ProductCode...)" instead of "ProductCode - Description"
+      let description = prodData.description;
+      const match = description.match(/^[\d-]+\s*-\s*(.+)$/);
+      if (match) {
+        description = match[1]; // Get text after "ProductCode - "
+      }
+
+      // Show first 6 digits of product code in brackets
+      const shortCode = pc.substring(0, 6);
+      const formattedName = `${description} (${shortCode}...)`;
+
+      return {
+        id: pc,
+        name: formattedName,
+        value: prodData.value,
+        children: prodData.items.length > 1 ? prodData.items : []
+      };
+    });
 
     // Add block
     children.push({
@@ -112,16 +136,30 @@ function createFlatList(budgetData, year) {
   const field = year === '2025' ? 'plan2025' : 'plan2026';
   const items = budgetData.items;
 
-  const flatList = items.map(item => ({
-    id: item.productCode,
-    title: item.description,
-    amount: item[field],
-    group: item.policyBlockName,
-    groupId: item.policyBlock,
-    district: item.amt,
-    productCode: item.productCode,
-    costType: item.costTypePosition
-  }));
+  const flatList = items.map(item => {
+    // Format: "Description (ProductCode...)" instead of "ProductCode - Description"
+    // Extract description without product code prefix if it exists
+    let description = item.description;
+    const match = description.match(/^[\d-]+\s*-\s*(.+)$/);
+    if (match) {
+      description = match[1]; // Get text after "ProductCode - "
+    }
+
+    // Show first 6 digits of product code in brackets
+    const shortCode = item.productCode.substring(0, 6);
+    const formattedTitle = `${description} (${shortCode}...)`;
+
+    return {
+      id: item.productCode,
+      title: formattedTitle,
+      amount: item[field],
+      group: item.policyBlockName,
+      groupId: item.policyBlock,
+      district: item.amt,
+      productCode: item.productCode,
+      costType: item.costTypePosition
+    };
+  });
 
   flatList.sort((a, b) => b.amount - a.amount);
 
@@ -135,15 +173,28 @@ function createBlocksDetail(budgetData, year) {
   const blocksDetail = {};
 
   for (const [blockId, blockData] of Object.entries(aggregated)) {
-    const products = blockData.items.map(item => ({
-      productCode: item.productCode,
-      description: item.description,
-      amt: item.amt,
-      teilhaushalt: item.teilhaushalt,
-      value: item[field],
-      costType: item.costTypePosition,
-      accountDescription: item.accountDescription
-    }));
+    const products = blockData.items.map(item => {
+      // Format: "Description (ProductCode...)" instead of "ProductCode - Description"
+      let description = item.description;
+      const match = description.match(/^[\d-]+\s*-\s*(.+)$/);
+      if (match) {
+        description = match[1]; // Get text after "ProductCode - "
+      }
+
+      // Show first 6 digits of product code in brackets
+      const shortCode = item.productCode.substring(0, 6);
+      const formattedDescription = `${description} (${shortCode}...)`;
+
+      return {
+        productCode: item.productCode,
+        description: formattedDescription,
+        amt: item.amt,
+        teilhaushalt: item.teilhaushalt,
+        value: item[field],
+        costType: item.costTypePosition,
+        accountDescription: item.accountDescription
+      };
+    });
 
     blocksDetail[blockId] = {
       id: blockId,

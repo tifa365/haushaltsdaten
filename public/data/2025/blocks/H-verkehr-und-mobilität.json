@@ -8,7 +8,7 @@
   "products": [
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 90900,
@@ -17,7 +17,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 4050,
@@ -26,7 +26,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2000,
@@ -35,7 +35,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 4050,
@@ -44,7 +44,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 600,
@@ -53,7 +53,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1950,
@@ -62,7 +62,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 63350,
@@ -71,7 +71,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 11796350,
@@ -80,7 +80,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 529150,
@@ -89,7 +89,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 260850,
@@ -98,7 +98,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 529150,
@@ -107,7 +107,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 215950,
@@ -116,7 +116,7 @@
     },
     {
       "productCode": "5490-072",
-      "description": "5490-072 - Sonst.Leistg.Straßenbaulastträger Amt 72",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
       "amt": "72 - Marktamt",
       "teilhaushalt": "Dezernat IV",
       "value": 171100,
@@ -125,7 +125,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 911050,
@@ -134,7 +134,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1271500,
@@ -143,7 +143,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 47750,
@@ -152,7 +152,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2150,
@@ -161,7 +161,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1100,
@@ -170,7 +170,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2150,
@@ -179,7 +179,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 350,
@@ -188,7 +188,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1100,
@@ -197,7 +197,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 34850,
@@ -206,7 +206,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 516250,
@@ -215,7 +215,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 22450,
@@ -224,7 +224,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 11850,
@@ -233,7 +233,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 22450,
@@ -242,7 +242,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 9600,
@@ -251,7 +251,7 @@
     },
     {
       "productCode": "5490-072",
-      "description": "5490-072 - Sonst.Leistg.Straßenbaulastträger Amt 72",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
       "amt": "72 - Marktamt",
       "teilhaushalt": "Dezernat IV",
       "value": 7350,
@@ -260,7 +260,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 39850,
@@ -269,7 +269,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 55800,
@@ -278,7 +278,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2331750,
@@ -287,7 +287,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 101650,
@@ -296,7 +296,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 50700,
@@ -305,7 +305,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 101650,
@@ -314,7 +314,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 43150,
@@ -323,7 +323,7 @@
     },
     {
       "productCode": "5490-072",
-      "description": "5490-072 - Sonst.Leistg.Straßenbaulastträger Amt 72",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
       "amt": "72 - Marktamt",
       "teilhaushalt": "Dezernat IV",
       "value": 34100,
@@ -332,7 +332,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 184150,
@@ -341,7 +341,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 248350,
@@ -350,7 +350,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 12350,
@@ -359,7 +359,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 550,
@@ -368,7 +368,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 300,
@@ -377,7 +377,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 3750,
@@ -386,7 +386,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 50,
@@ -395,7 +395,7 @@
     },
     {
       "productCode": "5490-072",
-      "description": "5490-072 - Sonst.Leistg.Straßenbaulastträger Amt 72",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
       "amt": "72 - Marktamt",
       "teilhaushalt": "Dezernat IV",
       "value": 10450,
@@ -404,7 +404,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 400,
@@ -413,7 +413,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 28000,
@@ -422,7 +422,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2300,
@@ -431,7 +431,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1500,
@@ -440,7 +440,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1100,
@@ -449,7 +449,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 600,
@@ -458,7 +458,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2600,
@@ -467,7 +467,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2800,
@@ -476,7 +476,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 6650,
@@ -485,7 +485,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 450,
@@ -494,7 +494,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 250,
@@ -503,7 +503,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 150,
@@ -512,7 +512,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 3000,
@@ -521,7 +521,7 @@
     },
     {
       "productCode": "5490-072",
-      "description": "5490-072 - Sonst.Leistg.Straßenbaulastträger Amt 72",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
       "amt": "72 - Marktamt",
       "teilhaushalt": "Dezernat IV",
       "value": 12000,
@@ -530,7 +530,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 110000,
@@ -539,7 +539,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 7681800,
@@ -548,7 +548,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2665450,
@@ -557,7 +557,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 10000,
@@ -566,7 +566,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1024400,
@@ -575,7 +575,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1965000,
@@ -584,7 +584,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 39100,
@@ -593,7 +593,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2233500,
@@ -602,7 +602,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 50000,
@@ -611,7 +611,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1286800,
@@ -620,7 +620,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 863700,
@@ -629,7 +629,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 341000,
@@ -638,7 +638,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 78950,
@@ -647,7 +647,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 55900,
@@ -656,7 +656,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 76800,
@@ -665,7 +665,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 117450,
@@ -674,7 +674,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 87150,
@@ -683,7 +683,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 40200,
@@ -692,7 +692,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 197750,
@@ -701,7 +701,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 45800,
@@ -710,7 +710,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 32300,
@@ -719,7 +719,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 44450,
@@ -728,7 +728,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 68100,
@@ -737,7 +737,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 50600,
@@ -746,7 +746,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 23300,
@@ -755,7 +755,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 122450,
@@ -764,7 +764,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 28300,
@@ -773,7 +773,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 20100,
@@ -782,7 +782,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 27550,
@@ -791,7 +791,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 42150,
@@ -800,7 +800,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 31300,
@@ -809,7 +809,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 14450,
@@ -818,7 +818,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 302800,
@@ -827,7 +827,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 3100,
@@ -836,7 +836,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 15000,
@@ -845,7 +845,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 575000,
@@ -854,7 +854,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 425000,
@@ -863,7 +863,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1100,
@@ -872,7 +872,7 @@
     },
     {
       "productCode": "5490-072",
-      "description": "5490-072 - Sonst.Leistg.Straßenbaulastträger Amt 72",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
       "amt": "72 - Marktamt",
       "teilhaushalt": "Dezernat IV",
       "value": 12000,
@@ -881,7 +881,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2500,
@@ -890,7 +890,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 12900,
@@ -899,7 +899,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 121500,
@@ -908,7 +908,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 5800,
@@ -917,7 +917,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2800,
@@ -926,7 +926,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 5800,
@@ -935,7 +935,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2000,
@@ -944,7 +944,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 410700,
@@ -953,7 +953,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 33600,
@@ -962,7 +962,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 17500,
@@ -971,7 +971,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1300,
@@ -980,7 +980,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 800,
@@ -989,7 +989,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 550,
@@ -998,7 +998,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 150,
@@ -1007,7 +1007,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 750,
@@ -1016,7 +1016,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 750,
@@ -1025,7 +1025,7 @@
     },
     {
       "productCode": "5490-072",
-      "description": "5490-072 - Sonst.Leistg.Straßenbaulastträger Amt 72",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
       "amt": "72 - Marktamt",
       "teilhaushalt": "Dezernat IV",
       "value": 1500,
@@ -1034,7 +1034,7 @@
     },
     {
       "productCode": "5490-072",
-      "description": "5490-072 - Sonst.Leistg.Straßenbaulastträger Amt 72",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
       "amt": "72 - Marktamt",
       "teilhaushalt": "Dezernat IV",
       "value": 20000,
@@ -1043,7 +1043,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 21732350,
@@ -1052,7 +1052,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1004750,
@@ -1061,7 +1061,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 582900,
@@ -1070,7 +1070,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 360800,
@@ -1079,7 +1079,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 28550,
@@ -1088,7 +1088,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2350,
@@ -1097,7 +1097,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1550,
@@ -1106,7 +1106,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1150,
@@ -1115,7 +1115,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 600,
@@ -1124,7 +1124,7 @@
     },
     {
       "productCode": "5490-072",
-      "description": "5490-072 - Sonst.Leistg.Straßenbaulastträger Amt 72",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
       "amt": "72 - Marktamt",
       "teilhaushalt": "Dezernat IV",
       "value": 1200,
@@ -1133,7 +1133,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2700,
@@ -1142,7 +1142,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2850,
@@ -1151,7 +1151,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2700,
@@ -1160,7 +1160,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 250,
@@ -1169,7 +1169,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 250,
@@ -1178,7 +1178,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -1187,7 +1187,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 50,
@@ -1196,7 +1196,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 150,
@@ -1205,7 +1205,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 150,
@@ -1214,7 +1214,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 9000,
@@ -1223,7 +1223,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 10550,
@@ -1232,7 +1232,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 28000,
@@ -1241,7 +1241,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2300,
@@ -1250,7 +1250,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1500,
@@ -1259,7 +1259,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1100,
@@ -1268,7 +1268,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 600,
@@ -1277,7 +1277,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2600,
@@ -1286,7 +1286,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2800,
@@ -1295,7 +1295,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 200400,
@@ -1304,7 +1304,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 12600,
@@ -1313,7 +1313,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 7300,
@@ -1322,7 +1322,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 4500,
@@ -1331,7 +1331,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 129350,
@@ -1340,7 +1340,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 7700,
@@ -1349,7 +1349,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 5100,
@@ -1358,7 +1358,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 3700,
@@ -1367,7 +1367,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1950,
@@ -1376,7 +1376,7 @@
     },
     {
       "productCode": "5490-072",
-      "description": "5490-072 - Sonst.Leistg.Straßenbaulastträger Amt 72",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
       "amt": "72 - Marktamt",
       "teilhaushalt": "Dezernat IV",
       "value": 1000,
@@ -1385,7 +1385,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 8600,
@@ -1394,7 +1394,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 9250,
@@ -1403,7 +1403,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 6350,
@@ -1412,7 +1412,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 550,
@@ -1421,7 +1421,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 350,
@@ -1430,7 +1430,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 250,
@@ -1439,7 +1439,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 150,
@@ -1448,7 +1448,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 600,
@@ -1457,7 +1457,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 24500,
@@ -1466,7 +1466,7 @@
     },
     {
       "productCode": "5490-072",
-      "description": "5490-072 - Sonst.Leistg.Straßenbaulastträger Amt 72",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
       "amt": "72 - Marktamt",
       "teilhaushalt": "Dezernat IV",
       "value": 700,
@@ -1475,7 +1475,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 21000,
@@ -1484,7 +1484,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1550,
@@ -1493,7 +1493,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 900,
@@ -1502,7 +1502,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 550,
@@ -1511,7 +1511,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 5700,
@@ -1520,7 +1520,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 450,
@@ -1529,7 +1529,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 300,
@@ -1538,7 +1538,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 200,
@@ -1547,7 +1547,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -1556,7 +1556,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -1565,7 +1565,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1550,
@@ -1574,7 +1574,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 5540300,
@@ -1583,7 +1583,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 288200,
@@ -1592,7 +1592,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 152800,
@@ -1601,7 +1601,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 452800,
@@ -1610,7 +1610,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2700,
@@ -1619,7 +1619,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 250,
@@ -1628,7 +1628,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 150,
@@ -1637,7 +1637,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -1646,7 +1646,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 50,
@@ -1655,7 +1655,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 250,
@@ -1664,7 +1664,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 300,
@@ -1673,7 +1673,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 17250,
@@ -1682,7 +1682,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1250,
@@ -1691,7 +1691,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 750,
@@ -1700,7 +1700,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 450,
@@ -1709,7 +1709,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 50000,
@@ -1718,7 +1718,7 @@
     },
     {
       "productCode": "5490-072",
-      "description": "5490-072 - Sonst.Leistg.Straßenbaulastträger Amt 72",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
       "amt": "72 - Marktamt",
       "teilhaushalt": "Dezernat IV",
       "value": 2000,
@@ -1727,7 +1727,7 @@
     },
     {
       "productCode": "5490-072",
-      "description": "5490-072 - Sonst.Leistg.Straßenbaulastträger Amt 72",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
       "amt": "72 - Marktamt",
       "teilhaushalt": "Dezernat IV",
       "value": 5000,
@@ -1736,7 +1736,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 211750,
@@ -1745,7 +1745,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 10950,
@@ -1754,7 +1754,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 6350,
@@ -1763,7 +1763,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 3950,
@@ -1772,7 +1772,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 190100,
@@ -1781,7 +1781,7 @@
     },
     {
       "productCode": "5490-072",
-      "description": "5490-072 - Sonst.Leistg.Straßenbaulastträger Amt 72",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
       "amt": "72 - Marktamt",
       "teilhaushalt": "Dezernat IV",
       "value": 12000,
@@ -1790,7 +1790,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 94050,
@@ -1799,7 +1799,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 3050,
@@ -1808,7 +1808,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1800,
@@ -1817,7 +1817,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1100,
@@ -1826,7 +1826,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2200,
@@ -1835,7 +1835,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 624400,
@@ -1844,7 +1844,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 27850,
@@ -1853,7 +1853,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 13400,
@@ -1862,7 +1862,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 27850,
@@ -1871,7 +1871,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 9600,
@@ -1880,7 +1880,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 31700,
@@ -1889,7 +1889,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 71050,
@@ -1898,7 +1898,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 73050,
@@ -1907,7 +1907,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 10700,
@@ -1916,7 +1916,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 7000,
@@ -1925,7 +1925,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 5100,
@@ -1934,7 +1934,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2550,
@@ -1943,7 +1943,7 @@
     },
     {
       "productCode": "5490-072",
-      "description": "5490-072 - Sonst.Leistg.Straßenbaulastträger Amt 72",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
       "amt": "72 - Marktamt",
       "teilhaushalt": "Dezernat IV",
       "value": 50,
@@ -1952,7 +1952,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 11600,
@@ -1961,7 +1961,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 333350,
@@ -1970,7 +1970,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2750,
@@ -1979,7 +1979,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 200,
@@ -1988,7 +1988,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 200,
@@ -1997,7 +1997,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -2006,7 +2006,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -2015,7 +2015,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 300,
@@ -2024,7 +2024,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 300,
@@ -2033,7 +2033,7 @@
     },
     {
       "productCode": "5490-072",
-      "description": "5490-072 - Sonst.Leistg.Straßenbaulastträger Amt 72",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
       "amt": "72 - Marktamt",
       "teilhaushalt": "Dezernat IV",
       "value": 50,
@@ -2042,7 +2042,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1450,
@@ -2051,7 +2051,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -2060,7 +2060,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -2069,7 +2069,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -2078,7 +2078,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 50,
@@ -2087,7 +2087,7 @@
     },
     {
       "productCode": "5490-072",
-      "description": "5490-072 - Sonst.Leistg.Straßenbaulastträger Amt 72",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
       "amt": "72 - Marktamt",
       "teilhaushalt": "Dezernat IV",
       "value": 50,
@@ -2096,7 +2096,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -2105,7 +2105,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -2114,7 +2114,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 12000,
@@ -2123,7 +2123,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1200,
@@ -2132,7 +2132,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1000,
@@ -2141,7 +2141,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -2150,7 +2150,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 400,
@@ -2159,7 +2159,7 @@
     },
     {
       "productCode": "5490-072",
-      "description": "5490-072 - Sonst.Leistg.Straßenbaulastträger Amt 72",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
       "amt": "72 - Marktamt",
       "teilhaushalt": "Dezernat IV",
       "value": 300,
@@ -2168,7 +2168,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1200,
@@ -2177,7 +2177,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1200,
@@ -2186,7 +2186,7 @@
     },
     {
       "productCode": "5490-072",
-      "description": "5490-072 - Sonst.Leistg.Straßenbaulastträger Amt 72",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
       "amt": "72 - Marktamt",
       "teilhaushalt": "Dezernat IV",
       "value": 800,
@@ -2195,7 +2195,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 26100,
@@ -2204,7 +2204,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2100,
@@ -2213,7 +2213,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1400,
@@ -2222,7 +2222,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1000,
@@ -2231,7 +2231,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -2240,7 +2240,7 @@
     },
     {
       "productCode": "5490-072",
-      "description": "5490-072 - Sonst.Leistg.Straßenbaulastträger Amt 72",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
       "amt": "72 - Marktamt",
       "teilhaushalt": "Dezernat IV",
       "value": 750,
@@ -2249,7 +2249,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 3800,
@@ -2258,7 +2258,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2600,
@@ -2267,7 +2267,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 30000,
@@ -2276,7 +2276,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 3000,
@@ -2285,7 +2285,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2000,
@@ -2294,7 +2294,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1400,
@@ -2303,7 +2303,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 800,
@@ -2312,7 +2312,7 @@
     },
     {
       "productCode": "5490-072",
-      "description": "5490-072 - Sonst.Leistg.Straßenbaulastträger Amt 72",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
       "amt": "72 - Marktamt",
       "teilhaushalt": "Dezernat IV",
       "value": 1750,
@@ -2321,7 +2321,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2000,
@@ -2330,7 +2330,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 3600,
@@ -2339,7 +2339,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 60000,
@@ -2348,7 +2348,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 100000,
@@ -2357,7 +2357,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 19000,
@@ -2366,7 +2366,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 800,
@@ -2375,7 +2375,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 500,
@@ -2384,7 +2384,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 400,
@@ -2393,7 +2393,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 200,
@@ -2402,7 +2402,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 900,
@@ -2411,7 +2411,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 900,
@@ -2420,7 +2420,7 @@
     },
     {
       "productCode": "5490-072",
-      "description": "5490-072 - Sonst.Leistg.Straßenbaulastträger Amt 72",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
       "amt": "72 - Marktamt",
       "teilhaushalt": "Dezernat IV",
       "value": 150,
@@ -2429,7 +2429,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 10000,
@@ -2438,7 +2438,7 @@
     },
     {
       "productCode": "5451",
-      "description": "5451 - Straßenreinigung",
+      "description": "Straßenreinigung (5451...)",
       "amt": "923 - Dezernat III",
       "teilhaushalt": "Dezernat III",
       "value": 5691600,
@@ -2447,7 +2447,7 @@
     },
     {
       "productCode": "5452",
-      "description": "5452 - Winterdienst Gemeindestraßen,Wege,Plätze",
+      "description": "Winterdienst Gemeindestraßen,Wege,Plätze (5452...)",
       "amt": "923 - Dezernat III",
       "teilhaushalt": "Dezernat III",
       "value": 3607650,
@@ -2456,7 +2456,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 60000,
@@ -2465,7 +2465,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 27184471.76,
@@ -2474,7 +2474,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1394597.72,
@@ -2483,7 +2483,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 745610.03,
@@ -2492,7 +2492,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2192718.14,
@@ -2501,7 +2501,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2555.24,
@@ -2510,7 +2510,7 @@
     },
     {
       "productCode": "5490-072",
-      "description": "5490-072 - Sonst.Leistg.Straßenbaulastträger Amt 72",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 72 (5490-0...)",
       "amt": "72 - Marktamt",
       "teilhaushalt": "Dezernat IV",
       "value": 2369.07,
@@ -2519,7 +2519,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 8367.12,
@@ -2528,7 +2528,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 19159.36,
@@ -2537,7 +2537,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1510813.09,
@@ -2546,7 +2546,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 77885.06,
@@ -2555,7 +2555,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 41623.11,
@@ -2564,7 +2564,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 122182.86,
@@ -2573,7 +2573,7 @@
     },
     {
       "productCode": "5460",
-      "description": "5460 - Parkeinrichtungen",
+      "description": "Parkeinrichtungen (5460...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 311.64,
@@ -2582,7 +2582,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 1020.6,
@@ -2591,7 +2591,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 2264.34,
@@ -2600,7 +2600,7 @@
     },
     {
       "productCode": "5470-926",
-      "description": "5470-926 - Öffentlicher Personennahverkehr Dez VI",
+      "description": "Öffentlicher Personennahverkehr Dez VI (5470-9...)",
       "amt": "926 - Dezernat VI",
       "teilhaushalt": "Dezernat VI",
       "value": 0,
@@ -2609,7 +2609,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
@@ -2618,7 +2618,7 @@
     },
     {
       "productCode": "5410",
-      "description": "5410 - Gemeindestraßen",
+      "description": "Gemeindestraßen (5410...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 40000,
@@ -2627,7 +2627,7 @@
     },
     {
       "productCode": "5420",
-      "description": "5420 - Kreisstraßen",
+      "description": "Kreisstraßen (5420...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 3000,
@@ -2636,7 +2636,7 @@
     },
     {
       "productCode": "5430",
-      "description": "5430 - Staatsstraßen",
+      "description": "Staatsstraßen (5430...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 5000,
@@ -2645,7 +2645,7 @@
     },
     {
       "productCode": "5440",
-      "description": "5440 - Bundesstraßen",
+      "description": "Bundesstraßen (5440...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 3000,
@@ -2654,7 +2654,7 @@
     },
     {
       "productCode": "5490-066",
-      "description": "5490-066 - Sonst.Leistg.Straßenbaulastträger Amt 66",
+      "description": "Sonst.Leistg.Straßenbaulastträger Amt 66 (5490-0...)",
       "amt": "66 - Mobilitäts- und Tiefbauamt",
       "teilhaushalt": "Dezernat VI",
       "value": 100,
