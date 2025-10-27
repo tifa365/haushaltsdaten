@@ -131,33 +131,40 @@ git push
 
 ## Data Loading in Frontend
 
-### Load Treemap Data
+### Server-Side Data Loading (getServerSideProps)
 ```typescript
-import { loadTreemapData } from '@/lib/staticData/loadBudgetData';
+import fs from 'fs'
+import path from 'path'
 
-const treemap = await loadTreemapData(2025);
-// Use with D3 treemap component
+export const getServerSideProps: GetServerSideProps = async ({ query }) => {
+  const dataDir = path.join(process.cwd(), 'public', 'data')
+  const year = 2025
+
+  // Load treemap data
+  const treemapPath = path.join(dataDir, `${year}`, 'treemap.json')
+  const treemapData = JSON.parse(fs.readFileSync(treemapPath, 'utf-8'))
+
+  // Load list data
+  const listPath = path.join(dataDir, `${year}`, 'list.json')
+  const listData = JSON.parse(fs.readFileSync(listPath, 'utf-8'))
+
+  return {
+    props: {
+      hierarchyData: treemapData,
+      initialListData: listData,
+    },
+  }
+}
 ```
 
-### Load Summary Stats
+### Client-Side Data Loading (fetch)
 ```typescript
-import { loadSummaryStats } from '@/lib/staticData/loadBudgetData';
+// Load data dynamically in browser
+const response = await fetch('/data/2025/list.json')
+const listData = await response.json()
 
-const stats = await loadSummaryStats(2025);
-console.log(stats.totalMrd); // 2.824
-console.log(stats.blocks[0].name); // "Soziales & Jugend"
-```
-
-### Load List Data
-```typescript
-import { loadListData, filterListData } from '@/lib/staticData/loadBudgetData';
-
-const allItems = await loadListData(2025);
-
-// Filter by policy block
-const filtered = filterListData(allItems, {
-  group: 'C' // Soziales & Jugend
-});
+// Filter by policy area
+const filtered = listData.filter(item => item.policyArea === 'C')
 ```
 
 ## Why Static Over Database?
