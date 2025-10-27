@@ -1,79 +1,67 @@
-import {
-  getRowsByDistrictAndType,
-  GetRowsByDistrictAndTypeParamsType,
-} from '@lib/requests/getRowsByDistrictAndType'
-import {
-  createBaseTree,
-  createTreeStructure,
-  TreemapHierarchyType,
-} from '@lib/utils/createTreemapStructure'
 import { TreeMapWithData } from '@components/TreeMap/withData'
 import { mapRawQueryToState, ParsedPageQueryType } from '@lib/utils/queryUtil'
 import { GetServerSideProps } from 'next'
 import { FC } from 'react'
 import useDimensions from 'react-cool-dimensions'
-import { districts } from '@data/districts'
 import { DEFAULT_YEAR, isValidYear } from '@lib/utils/yearValidator'
-import { DEFAULT_MODUS, isValidModus } from '@lib/utils/modusValidator'
+import fs from 'fs'
+import path from 'path'
 
-const ALL_DISTRICTS_ID: keyof typeof districts = '01' // -> Alle Bereiche
+interface TreemapNode {
+  id: string
+  name: string
+  value?: number
+  color?: string
+  children?: TreemapNode[]
+}
+
+interface SharePageProps {
+  query: Partial<ParsedPageQueryType>
+  queriedYear: number
+  queriedPolicyArea: string | null
+  hierarchyData: TreemapNode
+}
+
+const ALL_POLICY_AREAS = 'all'
 
 // eslint-disable-next-line @typescript-eslint/require-await
 export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   const parsedQuery = query ? mapRawQueryToState(query) : {}
 
-  const queriedDistrictId =
+  const queriedPolicyArea =
     parsedQuery && parsedQuery.district && !Array.isArray(parsedQuery.district)
       ? parsedQuery.district
       : null
 
-  const queriedType =
-    typeof parsedQuery.showExpenses === 'undefined' || parsedQuery.showExpenses
-      ? 'Ausgabetitel'
-      : 'Einnahmetitel'
-
   const queriedYear = parsedQuery.year
 
-  const queriedModus = parsedQuery.modus
+  // Load static JSON data from filesystem (server-side)
+  const dataDir = path.join(process.cwd(), 'public', 'data')
+  const year = queriedYear && isValidYear(queriedYear) ? queriedYear : DEFAULT_YEAR
 
-  const data = await getRowsByDistrictAndType({
-    district:
-      !!queriedDistrictId && queriedDistrictId !== ALL_DISTRICTS_ID
-        ? districts[queriedDistrictId as keyof typeof districts]
-        : undefined,
-    expenseType: queriedType,
-    year: queriedYear && isValidYear(queriedYear) ? queriedYear : DEFAULT_YEAR,
-    modus:
-      queriedModus && isValidModus(queriedModus) ? queriedModus : DEFAULT_MODUS,
-  })
+  try {
+    // Load treemap data
+    const treemapPath = path.join(dataDir, `${year}`, 'treemap.json')
+    const treemapData = JSON.parse(fs.readFileSync(treemapPath, 'utf-8'))
 
-  if (!data) {
-    throw new Error('No data found for this request')
-  }
-
-  const hierarchyData = {
-    id: 'overview',
-    name: `Alle ${queriedType === 'Ausgabetitel' ? 'Ausgaben' : 'Einnahmen'}`,
-    children: createTreeStructure(createBaseTree(data)),
-  }
-
-  return {
-    props: {
-      title: 'Visualisierung',
-      query,
-      queriedDistrictId: queriedDistrictId,
-      queriedType: queriedType,
-      hierarchyData: hierarchyData,
-    },
+    return {
+      props: {
+        title: 'Visualisierung',
+        query,
+        queriedYear: year,
+        queriedPolicyArea: queriedPolicyArea,
+        hierarchyData: treemapData,
+      },
+    }
+  } catch (error) {
+    console.error('Error loading static data:', error)
+    throw new Error(
+      `Failed to load data for year ${year}. Make sure to run: npm run data:build`
+    )
   }
 }
 
-export const SharePage: FC<{
-  query: Partial<ParsedPageQueryType>
-  queriedDistrictId: keyof typeof districts
-  queriedType: GetRowsByDistrictAndTypeParamsType['expenseType']
-  hierarchyData: TreemapHierarchyType
-}> = ({ hierarchyData }) => {
+export const SharePage: FC<SharePageProps> = ({ hierarchyData }) => {
   const { observe, width, height } = useDimensions()
 
   return (

@@ -5,7 +5,6 @@ import { Head } from '@components/Head'
 import '../src/style/global.css'
 import { useMatomo } from '@lib/hooks/useMatomo'
 import { Header } from '@components/Header'
-import { Footer } from '@components/Footer'
 import { useRouter } from 'next/router'
 import { useHashIdScroll } from '@lib/hooks/useHashIdScroll'
 
@@ -33,7 +32,6 @@ const App: FC<{
       <Head pageTitle={pageProps.title || ''} />
       {pathname !== '/share' && <Header {...pageProps.query} />}
       <Component {...pageProps} query={parsedQuery} />
-      {pathname !== '/share' && <Footer />}
     </StrictMode>
   )
 }

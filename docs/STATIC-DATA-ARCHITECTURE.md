@@ -164,8 +164,8 @@ const filtered = filterListData(allItems, {
 
 ### For This Project Specifically:
 
-| Requirement | Static JSON | Database (Supabase/Postgres) |
-|-------------|-------------|------------------------------|
+| Requirement | Static JSON | Database (PostgreSQL) |
+|-------------|-------------|----------------------|
 | Data updates | 2x per year | 2x per year |
 | Query complexity | Simple hierarchies | Simple hierarchies |
 | User personalization | None needed | None needed |
@@ -215,19 +215,18 @@ const filtered = filterListData(allItems, {
 
 **None of these apply to Leipzig budget visualization.**
 
-## Migration from Supabase (Completed)
+## Migration from Database (Completed)
 
 ### What Was Removed
-- ✅ `@supabase/supabase-js` dependency
-- ✅ `src/lib/requests/createSupabaseClient.ts`
-- ✅ `src/lib/requests/getRowsByDistrictAndType.ts`
-- ✅ `src/lib/requests/getRowsByTopic.ts`
-- ✅ Supabase env vars from `.env.example`
+- ✅ All database query dependencies
+- ✅ Database client initialization code
+- ✅ Remote data fetching functions
+- ✅ Database connection env vars from `.env.example`
 
 ### What Was Added
-- ✅ `scripts/process-leipzig-data.js` (Node.js, no Python)
-- ✅ `scripts/generate-static-json.js` (Node.js)
-- ✅ `src/lib/staticData/loadBudgetData.ts` (data loading utils)
+- ✅ `scripts/process-leipzig-data.js` (Node.js Excel processing)
+- ✅ `scripts/generate-static-json.js` (Static file generation)
+- ✅ Static JSON data loading utilities
 - ✅ `npm run data:*` scripts in package.json
 - ✅ `xlsx` package for Excel reading
 

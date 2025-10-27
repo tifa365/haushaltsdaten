@@ -1,15 +1,5 @@
 import { ListItem } from '@components/ListItem'
 import snakeCase from 'just-snake-case'
-import {
-  getRowsByDistrictAndType,
-  GetRowsByDistrictAndTypeParamsType,
-  HaushaltsdatenRowType,
-} from '@lib/requests/getRowsByDistrictAndType'
-import {
-  createBaseTree,
-  createTreeStructure,
-  TreemapHierarchyType,
-} from '@lib/utils/createTreemapStructure'
 import { TreeMapWithData } from '@components/TreeMap/withData'
 import { mapRawQueryToState, ParsedPageQueryType } from '@lib/utils/queryUtil'
 import { GetServerSideProps } from 'next'
@@ -17,151 +7,164 @@ import { FC, useState, useEffect } from 'react'
 import useDimensions from 'react-cool-dimensions'
 import { TreeMapControls } from '@components/TreeMapControls'
 import classNames from 'classnames'
-import { districts } from '@data/districts'
-import { useListData } from '@lib/hooks/useListData'
-import {
-  mapTopicDepthToColumn,
-  TopicDepth,
-} from '@lib/utils/mapTopicDepthToColumn'
+import { policyAreas } from '@data/policyAreas'
 import { getColorByMainTopic } from '@components/TreeMap/colors'
 import { useRouter } from 'next/router'
 import { EmbeddPopup } from '@components/EmbeddPopup'
 import { DEFAULT_YEAR, isValidYear } from '@lib/utils/yearValidator'
-import { DEFAULT_MODUS, isValidModus } from '@lib/utils/modusValidator'
 import { Button } from '@components/Button'
+import fs from 'fs'
+import path from 'path'
 
-const ALL_DISTRICTS_ID: keyof typeof districts = '01' // -> Alle Bereiche
-const MAX_ROWS = 100
-
-const isValidTopicDepth = (depthToCheck: number): boolean => {
-  const VALID_DEPTHS: TopicDepth[] = [1, 2, 3]
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-  // @ts-ignore
-  return VALID_DEPTHS.includes(depthToCheck)
+// Type definitions for Leipzig budget data
+interface TreemapNode {
+  id: string
+  name: string
+  value?: number
+  color?: string
+  children?: TreemapNode[]
 }
+
+interface BudgetItem {
+  id: string
+  title: string
+  amount: number
+  policyArea: string
+  policyAreaName: string
+  productCode: string
+  amt: string
+}
+
+interface VisualizationProps {
+  query: Partial<ParsedPageQueryType>
+  queriedYear: number
+  queriedPolicyArea: string | null
+  hierarchyData: TreemapNode
+  initialListData: BudgetItem[]
+}
+
+const ALL_POLICY_AREAS = 'all'
+const MAX_ROWS = 100
 
 // eslint-disable-next-line @typescript-eslint/require-await
 export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   const parsedQuery = query ? mapRawQueryToState(query) : {}
 
-  const queriedDistrictId =
+  const queriedPolicyArea =
     parsedQuery && parsedQuery.district && !Array.isArray(parsedQuery.district)
       ? parsedQuery.district
       : null
 
-  const queriedType =
-    typeof parsedQuery.showExpenses === 'undefined' || parsedQuery.showExpenses
-      ? 'Ausgabetitel'
-      : 'Einnahmetitel'
-
   const queriedYear = parsedQuery.year
-  const queriedModus = parsedQuery.modus
 
-  const data = await getRowsByDistrictAndType({
-    district:
-      !!queriedDistrictId && queriedDistrictId !== ALL_DISTRICTS_ID
-        ? districts[queriedDistrictId as keyof typeof districts]
-        : undefined,
-    expenseType: queriedType,
-    year: queriedYear && isValidYear(queriedYear) ? queriedYear : DEFAULT_YEAR,
-    modus:
-      queriedModus && isValidModus(queriedModus) ? queriedModus : DEFAULT_MODUS,
-  })
+  // Load static JSON data from filesystem (server-side)
+  const dataDir = path.join(process.cwd(), 'public', 'data')
+  const year = queriedYear && isValidYear(queriedYear) ? queriedYear : DEFAULT_YEAR
 
-  if (!data) {
-    throw new Error('No data found for this request')
-  }
+  try {
+    // Load treemap data
+    const treemapPath = path.join(dataDir, `${year}`, 'treemap.json')
+    const treemapData = JSON.parse(fs.readFileSync(treemapPath, 'utf-8'))
 
-  const hierarchyData = {
-    id: 'overview',
-    name: `Gesamt${queriedType === 'Ausgabetitel' ? 'ausgaben' : 'einnahmen'}`,
-    children: createTreeStructure(createBaseTree(data)),
-  }
+    // Load list data
+    const listPath = path.join(dataDir, `${year}`, 'list.json')
+    const listData = JSON.parse(fs.readFileSync(listPath, 'utf-8'))
 
-  const initialListData = data
-    .sort((a, b) => parseInt(b.betrag, 10) - parseInt(a.betrag, 10))
-    .slice(0, MAX_ROWS)
+    // Filter by policy area if specified
+    let filteredListData = listData
+    if (queriedPolicyArea && queriedPolicyArea !== ALL_POLICY_AREAS) {
+      filteredListData = listData.filter(
+        (item: BudgetItem) => item.policyArea === queriedPolicyArea
+      )
+    }
 
-  return {
-    props: {
-      title: 'Visualisierung',
-      query,
-      queriedYear: queriedYear || DEFAULT_YEAR,
-      queriedModus: queriedModus || DEFAULT_MODUS,
-      queriedDistrictId: queriedDistrictId,
-      queriedType: queriedType,
-      hierarchyData: hierarchyData,
-      initialListData: initialListData,
-    },
+    // Sort by amount and take top items
+    const initialListData = filteredListData
+      .sort((a: BudgetItem, b: BudgetItem) => b.amount - a.amount)
+      .slice(0, MAX_ROWS)
+
+    return {
+      props: {
+        title: 'Visualisierung',
+        query,
+        queriedYear: year,
+        queriedPolicyArea: queriedPolicyArea,
+        hierarchyData: treemapData,
+        initialListData: initialListData,
+      },
+    }
+  } catch (error) {
+    console.error('Error loading static data:', error)
+    throw new Error(
+      `Failed to load data for year ${year}. Make sure to run: npm run data:build`
+    )
   }
 }
 
-export interface TopicType {
-  topicDepth?: TopicDepth
-  topicLabel?: string
-}
-
-export const Visualization: FC<{
-  query: Partial<ParsedPageQueryType>
-  queriedYear: number
-  queriedModus: string
-  queriedDistrictId: keyof typeof districts
-  queriedType: GetRowsByDistrictAndTypeParamsType['expenseType']
-  hierarchyData: TreemapHierarchyType
-  initialListData: HaushaltsdatenRowType[]
-}> = ({
+export const Visualization: FC<VisualizationProps> = ({
   queriedYear,
-  queriedModus,
-  queriedDistrictId,
-  queriedType,
+  queriedPolicyArea,
   hierarchyData,
   initialListData,
 }) => {
   const { observe, width, height } = useDimensions()
   const { push, pathname } = useRouter()
 
-  const [topic, setTopic] = useState<TopicType>({})
+  const [selectedNode, setSelectedNode] = useState<string | null>(null)
+  const [listData, setListData] = useState<BudgetItem[]>(initialListData)
   const [visibleRows, setVisibleRows] = useState<number>(MAX_ROWS)
+  const [isLoading, setIsLoading] = useState(false)
+
   const loadMoreRows = (): void => {
-    const listDataLength = (listData || []).length
     const rowsToAdd = 10
     setVisibleRows(
-      visibleRows + rowsToAdd >= listDataLength
-        ? listDataLength
+      visibleRows + rowsToAdd >= listData.length
+        ? listData.length
         : visibleRows + rowsToAdd
     )
   }
 
-  const {
-    error,
-    isLoading,
-    data: listData,
-  } = useListData({
-    district:
-      queriedDistrictId && queriedDistrictId !== ALL_DISTRICTS_ID
-        ? districts[queriedDistrictId]
-        : undefined,
-    type: queriedType,
-    year: queriedYear,
-    modus: queriedModus,
-    topicColumn:
-      topic?.topicDepth && isValidTopicDepth(topic.topicDepth)
-        ? mapTopicDepthToColumn(topic.topicDepth, queriedModus)
-        : undefined,
-    topicValue:
-      topic.topicLabel &&
-      topic?.topicDepth &&
-      isValidTopicDepth(topic?.topicDepth)
-        ? topic.topicLabel
-        : undefined,
-    initialData: initialListData,
-  })
-
+  // Load filtered data when policy area changes
   useEffect(() => {
-    const listDataLength = (listData || []).length
-    // show all rows if dataLength is less or equal MAX_ROWS - otherwise show MAX_ROWS
-    setVisibleRows(listDataLength <= MAX_ROWS ? listDataLength : MAX_ROWS)
-  }, [listData])
+    const loadFilteredData = async () => {
+      setIsLoading(true)
+      try {
+        const response = await fetch(`/data/${queriedYear}/list.json`)
+        const allData = await response.json()
+
+        let filtered = allData
+        if (queriedPolicyArea && queriedPolicyArea !== ALL_POLICY_AREAS) {
+          filtered = allData.filter(
+            (item: BudgetItem) => item.policyArea === queriedPolicyArea
+          )
+        }
+
+        // Filter by selected node if any
+        if (selectedNode && selectedNode !== 'root') {
+          filtered = filtered.filter((item: BudgetItem) => {
+            // Match by policy area ID or product code
+            return (
+              item.policyArea === selectedNode ||
+              item.productCode === selectedNode ||
+              item.productCode.startsWith(selectedNode)
+            )
+          })
+        }
+
+        const sorted = filtered.sort(
+          (a: BudgetItem, b: BudgetItem) => b.amount - a.amount
+        )
+        setListData(sorted)
+        setVisibleRows(Math.min(MAX_ROWS, sorted.length))
+      } catch (error) {
+        console.error('Error loading data:', error)
+      } finally {
+        setIsLoading(false)
+      }
+    }
+
+    void loadFilteredData()
+  }, [queriedPolicyArea, queriedYear, selectedNode])
 
   return (
     <>
@@ -184,12 +187,10 @@ export const Visualization: FC<{
           >
             <div className="w-full z-10">
               <TreeMapControls
-                district={queriedDistrictId}
+                district={queriedPolicyArea || ALL_POLICY_AREAS}
                 onChange={(newQuery) => {
-                  // When resetting type or district, we want to clear the topic
-                  // as well, so that the list view displays items from every
-                  // topic again:
-                  setTopic({})
+                  // Clear selected node when filters change
+                  setSelectedNode(null)
 
                   void push({ pathname, query: newQuery }, undefined, {
                     shallow: false,
@@ -212,8 +213,8 @@ export const Visualization: FC<{
                 hierarchy={hierarchyData}
                 width={width}
                 height={height}
-                onChangeLevel={(level) => {
-                  setTopic(level)
+                onChangeLevel={(level: { topicLabel?: string }) => {
+                  setSelectedNode(level.topicLabel || null)
                 }}
               />
             )}
@@ -223,50 +224,46 @@ export const Visualization: FC<{
           </div>
           <div className="container mx-auto">
             <h2 className="mb-6 mt-12 px-4 font-bold text-2xl">
-              {queriedType === 'Ausgabetitel'
-                ? 'Höchste Ausgabetitel'
-                : 'Höchste Einnahmetitel'}
+              Höchste Ausgaben
+              {queriedPolicyArea &&
+                queriedPolicyArea !== ALL_POLICY_AREAS &&
+                ` – ${policyAreas[queriedPolicyArea as keyof typeof policyAreas]}`}
             </h2>
-            <ul className="flex flex-col gap-4">
-              {!error &&
-                !isLoading &&
-                (listData || [])
-                  .map((item) => ({
-                    id: item.id,
-                    title: item.titel_bezeichnung,
-                    amount: parseInt(item.betrag, 10),
-                    group: item.hauptKey,
-                    groupId: snakeCase(item.hauptKey),
-                    district: item.bereichs_bezeichnung,
-                  }))
-                  .sort((a, b) => b.amount - a.amount)
-                  .slice(0, visibleRows)
-                  .map((item) => (
-                    <ListItem
-                      key={item.id}
-                      title={item.title}
-                      id={item.id}
-                      group={item.group}
-                      groupColor={getColorByMainTopic(item.group)}
-                      district={item.district}
-                      price={item.amount}
-                    />
-                  ))}
-            </ul>
+            {isLoading ? (
+              <div className="text-center py-12">Lädt...</div>
+            ) : (
+              <>
+                <ul className="flex flex-col gap-4">
+                  {listData
+                    .slice(0, visibleRows)
+                    .map((item) => (
+                      <ListItem
+                        key={item.id}
+                        title={item.title}
+                        id={item.id}
+                        group={item.policyAreaName}
+                        groupColor={getColorByMainTopic(item.policyAreaName)}
+                        district={item.amt}
+                        price={item.amount}
+                      />
+                    ))}
+                </ul>
 
-            <div className="justify-center flex mt-8">
-              <Button
-                onClick={loadMoreRows}
-                disabled={visibleRows >= (listData || []).length}
-              >
-                <span className="block">
-                  Weitere Ausgabetitel anzeigen
-                  <span className="font-normal text-xs block">
-                    ({visibleRows}/{(listData || []).length})
-                  </span>
-                </span>
-              </Button>
-            </div>
+                <div className="justify-center flex mt-8">
+                  <Button
+                    onClick={loadMoreRows}
+                    disabled={visibleRows >= listData.length}
+                  >
+                    <span className="block">
+                      Weitere Ausgaben anzeigen
+                      <span className="font-normal text-xs block">
+                        ({visibleRows}/{listData.length})
+                      </span>
+                    </span>
+                  </Button>
+                </div>
+              </>
+            )}
           </div>
         </div>
       </div>

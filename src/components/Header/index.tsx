@@ -19,7 +19,7 @@ export const Header: FC = () => {
         )}
       >
         <h1 className={classNames('w-full md:w-auto', 'font-bold text-xl')}>
-          Berliner Haushaltsdaten
+          Leipzig Haushaltsdaten
         </h1>
         <Nav />
       </div>

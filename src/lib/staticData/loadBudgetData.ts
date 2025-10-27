@@ -1,6 +1,6 @@
 /**
  * Static data loading utilities
- * Replaces Supabase queries with static JSON file loading
+ * Loads budget data from pre-generated JSON files
  */
 
 import { DistrictLabel } from '@data/districts'
@@ -101,7 +101,7 @@ export async function loadBlockDetail(year: number, blockId: string): Promise<an
 
 /**
  * Filter list data by various criteria
- * Replaces Supabase query filtering
+ * Client-side filtering of budget data
  */
 export function filterListData(
   items: StaticBudgetItem[],
@@ -130,8 +130,8 @@ export function filterListData(
 }
 
 /**
- * Transform static data to match old Supabase structure
- * For backward compatibility with existing components
+ * Transform static data to legacy format
+ * For backward compatibility with existing components if needed
  */
 export function transformToLegacyFormat(items: StaticBudgetItem[]): HaushaltsdatenRowType[] {
   return items.map(item => ({

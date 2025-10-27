@@ -26,16 +26,16 @@ interface HeadPropType {
 }
 
 export const Head: FC<Partial<HeadPropType>> = ({
-  description = 'Interaktive Visualisierung der Berliner Haushaltsdaten',
-  siteTitle = 'Berliner Haushaltsdaten',
+  description = 'Interaktive Visualisierung der Leipzig Haushaltsdaten',
+  siteTitle = 'Leipzig Haushaltsdaten',
   pageTitle = 'Karte',
   fbAppId = '',
   keywords = [
-    'Berlin',
+    'Leipzig',
     'Haushalt',
     'Haushaltsdaten',
     'Visualisierung',
-    'Senatsverwaltung für Finanzen Berlin',
+    'Ergebnishaushalt',
   ],
   themeColor = colors.brand,
   locales = ['de'],

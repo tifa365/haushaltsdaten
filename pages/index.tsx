@@ -23,18 +23,17 @@ export const HomePage: FC = () => {
               {/* <Building className="fill-gray-400"/> */}
             </span>
             <h1 className="text-4xl md:text-6xl font-bold xl:text-right mb-3">
-              Berliner <br></br>Haushaltsdaten
+              Leipzig <br></br>Haushaltsdaten
             </h1>
-            <h1 className="text-2xl md:text-4xl md:text-right">2024/25</h1>
+            <h1 className="text-2xl md:text-4xl md:text-right">2025/26</h1>
           </div>
           <div className="flex-col italic xl:w-1/2 mt-6 md:mt-12 xl:mt-24 xl:pr-28">
-            Pro Jahr stehen der Berliner Verwaltung rund 39 Milliarden Euro zur
-            Umsetzung der gesetzlichen Vorgaben und ihrer Ziele zur Verfügung.
-            Aber wofür wenden Senat und Bezirke welchen Anteil ihrer Ressourcen
-            auf? Diese Webseite bietet einen Überblick über die geplanten
-            Ausgaben und Einnahmen des Landes für den aktuellen Doppelhaushalt
-            2024/25. Sie wurde gemeinsam initiiert und erarbeitet mit der Open
-            Data Informationsstelle und dem CityLAB Berlin – und steht als{' '}
+            Der Leipziger Ergebnishaushalt zeigt, wofür die Stadt ihre
+            Ressourcen einsetzt. Diese Webseite bietet einen Überblick über die
+            geplanten Ausgaben der Stadt Leipzig für den aktuellen
+            Doppelhaushalt 2025/26, aufgeschlüsselt nach Politikbereichen wie
+            Soziales, Bildung, Verwaltung und weiteren Bereichen. Sie steht
+            als{' '}
             <span className="text-brand">
               <InternalLink href={'/faq'} query={{ hashId: 'Open-Source' }}>
                 Open Source Projekt
@@ -46,20 +45,20 @@ export const HomePage: FC = () => {
 
         <div className="lg:w-3/6 m-auto mt-12 md:mt-20">
           <div className="text-2xl md:text-4xl flex-col">
-            <h1 className="flex lg:mt-28">Wie viel Geld gibt Berlin aus für</h1>
+            <h1 className="flex lg:mt-28">Wie viel Geld gibt Leipzig aus für</h1>
             <h1 className="font-bold flex text-brand">
               <TypeAnimation
                 cursor={false}
                 sequence={[
-                  'die Polizei?',
+                  'Soziales & Jugend?',
                   2000,
-                  'öffentliche Museen?',
+                  'Bildung & Kultur?',
                   2000,
-                  'Wohnungsbau?',
+                  'Verwaltung?',
                   2000,
-                  'Straßenbeleuchtung?',
+                  'Verkehr & Mobilität?',
                   2000,
-                  'Grundsicherung?',
+                  'Umwelt & Grün?',
                   2000,
                 ]}
                 wrapper={'p'}
@@ -69,21 +68,20 @@ export const HomePage: FC = () => {
             </h1>
           </div>
           <div className="m-auto mt-6 md:mt-8">
-            Das Leben und Zusammenleben in Berlin verursacht viele laufende
+            Das Leben und Zusammenleben in Leipzig verursacht viele laufende
             Kosten: Gehälter für Lehrerinnen und Lehrer, der Betrieb
             öffentlicher Gebäude, die Förderung von kulturellen Einrichtungen,
-            die Beleuchtung des Straßenraums. Hinzu kommen langfristige
-            Investitionen in technische und soziale Infrastruktur wie die
-            Schulen, den öffentlichen Nahverkehr oder Parks und
-            Erholungsflächen. All diese Ausgaben trägt die Berliner Verwaltung.
-            Doch wofür wird wieviel Geld ausgegeben?
+            Sozialleistungen, Verkehrsinfrastruktur. Hinzu kommen Investitionen
+            in Schulen, den öffentlichen Nahverkehr, Parks und
+            Erholungsflächen. All diese Ausgaben trägt die Stadt Leipzig. Doch
+            wofür wird wieviel Geld ausgegeben?
             <br></br>
             <br></br>
-            Die Ausgaben legt das Berliner Abgeordnetenhaus im Haushaltsgesetz
-            fest. Sie lassen sich in neun bundesweit vereinheitlichte
-            Hauptfunktionsbereiche untergliedern. Diese können als oberste Stufe
-            einer sich nach unten immer weiter verzweigenden Struktur, einer so
-            genannten Tree Map, dargestellt werden:
+            Die Ausgaben legt der Leipziger Stadtrat im Haushaltsplan fest. Sie
+            lassen sich in elf Politikbereiche (A-K) untergliedern: von
+            Verwaltung & Sicherheit über Bildung & Kultur bis hin zu
+            Finanzwirtschaft. Diese können als Struktur in einer so genannten
+            Tree Map dargestellt werden:
           </div>
         </div>
 
@@ -119,42 +117,25 @@ export const HomePage: FC = () => {
         </div>
 
         <div className="lg:w-3/6 m-auto mt-6 md:mt-12">
-          Im Berliner Haushaltsplan sind die Ausgaben und Einnahmen außerdem
-          spezifischen Bereichen von Hauptverwaltungen und Bezirken zugeordnet.
-          Dabei werden die Beträge für die einzelnen Haushaltsjahre getrennt
-          angegeben. Mittels der Visualisierung, die über den Link oben
-          erreichbar ist, können die einzelnen Darstellungsformen und Jahre im
-          Detail erkundet werden.
+          Im Leipziger Haushaltsplan sind die Ausgaben verschiedenen
+          Politikbereichen und Produkten zugeordnet. Dabei werden die Beträge
+          für die einzelnen Haushaltsjahre getrennt angegeben. Mittels der
+          Visualisierung, die über den Link oben erreichbar ist, können die
+          einzelnen Politikbereiche und Jahre im Detail erkundet werden.
           <br></br>
           <br></br>
-          Die detailliertesten Angaben zu spezifischen Beträgen im Haushaltsplan
-          sind die sogenannten Einnahme- und Ausgabetitel. Sie können über die
+          Die detailliertesten Angaben zu spezifischen Beträgen im
+          Haushaltsplan sind die einzelnen Produkte. Sie können über die
           Visualisierung gefiltert werden und erscheinen dann unter der Tree
-          Map. Titel und Funktionen können aber auch gezielt über die
-          Suchfunktion gefunden werden.
-          <div className="flex justify-center mt-6 md:mt-12">
-            <FadeInWrapper>
-              <ul>
-                <span className="font-bold text-xl text-brand">
-                  <InternalLink href={'/search'}>{'→ Zur Suche'}</InternalLink>
-                </span>
-                <li>
-                  <p className="pl-6">
-                    Nach Stichwörtern in den Einnahmen und Ausgaben suchen
-                  </p>
-                </li>
-              </ul>
-            </FadeInWrapper>
-          </div>
+          Map.
           <div className="flex-col mt-6 md:mt-16">
-            Wie kommt der Haushalt zustande, und wie wird er umgesetzt? Das Land
-            Berlin muss alle voraussichtlichen Einnahmen und Ausgaben eines
-            Jahres in einem Haushaltsplan ausweisen. Für jedes Jahr stellt der
-            Senat einen Haushaltsplanentwurf mit den jeweiligen Einzelhaushalten
-            der Verwaltungen auf und legt ihn dem Abgeordnetenhaus vor. Die
-            Abgeordneten können daraufhin Änderungen vornehmen. Am Ende der
-            Beratungen beschließen sie das Haushaltsgesetz. Nähere Informationen
-            finden sich auf der Info-Seite.
+            Wie kommt der Haushalt zustande? Die Stadt Leipzig muss alle
+            voraussichtlichen Einnahmen und Ausgaben eines Jahres in einem
+            Haushaltsplan ausweisen. Die Verwaltung stellt einen
+            Haushaltsplanentwurf auf und legt ihn dem Stadtrat vor. Die
+            Stadträtinnen und Stadträte können daraufhin Änderungen vornehmen.
+            Am Ende der Beratungen beschließen sie den Haushalt. Nähere
+            Informationen finden sich auf der Info-Seite.
           </div>
           <div className="flex justify-center mt-6 md:mt-12 mb-16 md:mb-24">
             <FadeInWrapper>
@@ -166,7 +147,7 @@ export const HomePage: FC = () => {
                 </span>
                 <li>
                   <p className="pl-6">
-                    Mehr erfahren in den Fragen und Antworten zum Berliner
+                    Mehr erfahren in den Fragen und Antworten zum Leipziger
                     Haushalt
                   </p>
                 </li>

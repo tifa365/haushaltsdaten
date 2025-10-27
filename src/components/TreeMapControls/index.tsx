@@ -1,9 +1,8 @@
 import { ListBox } from '@components/ListBox'
 import { ToggleSwitch } from '@components/Toggle'
-import { districts } from '@data/districts'
+import { policyAreas } from '@data/policyAreas'
 import { mapRawQueryToState, ParsedPageQueryType } from '@lib/utils/queryUtil'
 import { DEFAULT_YEAR, VALID_YEARS } from '@lib/utils/yearValidator'
-import { DEFAULT_MODUS, VALID_MODUS } from '@lib/utils/modusValidator'
 import classNames from 'classnames'
 import { useRouter } from 'next/router'
 import { FC } from 'react'
@@ -30,13 +29,18 @@ export const TreeMapControls: FC<TreeMapControlsPropType> = ({
     year = `${DEFAULT_YEAR}`
   }
   const mappedQuery = mapRawQueryToState(query)
-  const mappedDistricts = Object.keys(districts)
-    .sort()
-    .map((key) => ({
-      id: key,
-      name: districts[key as keyof typeof districts] || ' ',
-    }))
-  const foundDistrict = mappedDistricts.find(({ id }) => id === district)
+
+  // Policy areas: A-K plus "all" option
+  const mappedPolicyAreas = [
+    { id: 'all', name: 'Alle Politikbereiche' },
+    ...Object.keys(policyAreas)
+      .sort()
+      .map((key) => ({
+        id: key,
+        name: policyAreas[key as keyof typeof policyAreas] || ' ',
+      }))
+  ]
+  const foundPolicyArea = mappedPolicyAreas.find(({ id }) => id === district)
 
   return (
     <div className="w-full">
@@ -50,34 +54,18 @@ export const TreeMapControls: FC<TreeMapControlsPropType> = ({
         <div
           className={classNames(
             'w-full sm:w-auto',
-            'grid grid-cols-1 sm:grid-cols-[1fr,auto,1fr,auto,1fr,auto,1fr] gap-y-3 sm:gap-x-2 md:gap-x-6 pr-4'
+            'grid grid-cols-1 sm:grid-cols-[1fr,auto,1fr] gap-y-3 sm:gap-x-2 md:gap-x-6 pr-4'
           )}
         >
-          <ToggleSwitch
-            value={mappedQuery.showExpenses ?? true}
-            optionA="Einnahmen"
-            optionB="Ausgaben"
-            onChange={(isOn) =>
-              onChange({ ...mappedQuery, showExpenses: isOn })
-            }
-          />
-          <div className="hidden sm:inline-flex">
-            <Separator />
-          </div>
           <ListBox
-            selected={foundDistrict}
-            onChange={(district) =>
+            selected={foundPolicyArea}
+            onChange={(policyArea) =>
               onChange({
                 ...mappedQuery,
-                district: `${district}` as ParsedPageQueryType['district'],
+                district: `${policyArea}` as ParsedPageQueryType['district'],
               })
             }
-            options={Object.keys(districts)
-              .sort()
-              .map((key) => ({
-                id: key,
-                name: districts[key as keyof typeof districts] || ' ',
-              }))}
+            options={mappedPolicyAreas}
             additionalClasses="z-20"
           />
           <div className="hidden sm:inline-flex">
@@ -102,49 +90,6 @@ export const TreeMapControls: FC<TreeMapControlsPropType> = ({
             })}
             additionalClasses="z-10"
           />
-          <div className="hidden sm:inline-flex">
-            <Separator />
-          </div>
-          <div className="flex items-center gap-2">
-            <ListBox
-              selected={{ id: DEFAULT_MODUS, name: DEFAULT_MODUS }}
-              onChange={(modus) =>
-                onChange({
-                  ...mappedQuery,
-                  modus: modus as string,
-                })
-              }
-              options={VALID_MODUS.map((modus) => {
-                return {
-                  id: `${modus}`,
-                  name: `${modus}`,
-                }
-              })}
-              additionalClasses="w-full z-0"
-            />
-            <InternalLink
-              href={'/faq'}
-              query={{ hashId: 'Einzelplaene-und-Funktionen' }}
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="icon icon-tabler icon-tabler-info-circle"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                strokeWidth="2"
-                stroke="currentColor"
-                fill="none"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <circle cx="12" cy="12" r="9"></circle>
-                <line x1="12" y1="8" x2="12.01" y2="8"></line>
-                <polyline points="11 12 12 12 12 16 13 16"></polyline>
-              </svg>
-            </InternalLink>
-          </div>
         </div>
       </nav>
     </div>

@@ -1,30 +1,32 @@
-![](https://img.shields.io/badge/Built%20with%20%E2%9D%A4%EF%B8%8F-at%20Technologiestiftung%20Berlin-blue)
+# _Leipzig Haushaltsdaten - Dataviz_
 
-# _Berliner Haushaltsdaten - Dataviz_
+![Data visualization of Leipzig's expenditures](/public/images/readme.png)
 
-![Data visualization of Berlin's expenditures](/public/images/readme.png)
+This data visualization communicates Leipzig's public expenditures. It visualizes budget data across different policy areas and products to provide transparency into how public funds are allocated.
 
-This data visualization communicates Berlin's public expenditures. It describes in which fields data is spent (or earned) and which district or area is responsible for the expenditure.
+The means of visualization is a so-called [treemap](https://en.wikipedia.org/wiki/Treemapping) which allows comparing different expense areas and exploring the hierarchies of budget allocations.
 
-The means of visualization is a so-called [treemap](https://en.wikipedia.org/wiki/Treemapping) which allows comparing different expense areas and zooming into the hierarchies of expenses.
+The treemap visualization is embeddable using the _Einbetten_ option.
 
-The treemap visualization is embedabble by using the _Einbetten_ option.
-
-In addition, a list below the visualization renders the items which belong to the currently selected expense field (ordered by amount in €).
+In addition, a list below the visualization renders the budget items which belong to the currently selected policy area (ordered by amount in €).
 
 A homepage and FAQ page provide contextual information.
 
-> **Attention: This is a prototype, not a finished software.**
+> **Attention: This is a prototype, not finished software.**
 
 ## The data
 
-The data used is available as Open Data in Berlin's official [Open Data portal](https://daten.berlin.de/datensaetze). It is usually published bi-annually and includes the data for the next 2 years.
+The data used comes from the Leipzig city budget (Ergebnishaushalt). The data is provided as Excel files (`.xlsx`) with a "Grunddaten" sheet containing all budget items.
 
-The data comes as Excel files (`.xlsx`), which is converted to CSV and then loaded into a PostgreSQL database.
+The data is processed using a pure JavaScript/Node.js pipeline:
+1. **Processing**: Excel file → Intermediate JSON (`scripts/process-leipzig-data.js`)
+2. **Generation**: JSON → Static files for web serving (`scripts/generate-static-json.js`)
 
-We currently use a PostgreSQL database provided by [Supabase](https://supabase.com/). Find information for this setup in the [haushaltsdaten-supabase repo](https://github.com/berlin/haushaltsdaten-supabase).
-
-> **A note on our usage of Supabase**: We are using Supabase because it provides a convenient data access layer. There are certainly alternatives for accessing the data which could be explored in the future.
+All budget data is served as **static JSON files** from the `public/data/` directory - no database required. This approach provides:
+- Zero configuration (no credentials needed)
+- Maximum performance (CDN-served, edge-cached)
+- Complete reproducibility (Git commit = exact dataset)
+- Full audit trail (all changes tracked in Git)
 
 ## Tech stack
 
@@ -65,13 +67,7 @@ The texts are currently hard-coded into the pages/components. In the future a mo
 
 This project is a Next.js app which requires you to have [Node.js](https://nodejs.org/en/) installed.
 
-#### Supabase
-
-As explained in the data section earlier, a Supabase instance is used for storing the data.
-
-If you simply want to continue working on this repository, you can use the already existing Supabase instance.
-
-If you are planning to re-deploy this project, you will need to obtain a Supabase instance yourself, either by using their cloud offering or by self-hosting Supabase.
+That's it! No database setup, no credentials needed.
 
 ### Installation
 
@@ -105,15 +101,33 @@ With the correct Node version, install the dependencies:
 npm install
 ```
 
-Because the data is stored in a Supabase database, you will need to provide connection details in your environment. In this repository you can find a file `.env.example`. Duplicate this file and name it `.env`.
-
-In `.env` you must enter the connection details to the Supabase instance as suggested in `.env.example`. If you do not know how to obtain the necessary details, please ask a repository maintainer for access.
-
 You are now ready to start a local development server on http://localhost:3000 via:
 
 ```bash
 npm run dev
 ```
+
+That's it! The application will serve pre-generated static JSON files from `public/data/`.
+
+## Data Processing
+
+When new Leipzig budget data becomes available, process it with these commands:
+
+```bash
+# Place the Excel file in the daten/ directory
+cp path/to/leipzig-ergebnishaushalt-2025_2026.xlsx daten/
+
+# Process and generate static JSON files
+npm run data:build
+
+# Start development server
+npm run dev
+```
+
+Available data commands:
+- `npm run data:process` - Process Excel → intermediate JSON
+- `npm run data:generate` - Generate static JSON files for serving
+- `npm run data:build` - Run both commands in sequence
 
 ## Workflow
 
@@ -129,7 +143,9 @@ You can commit using the `npm run cm` command to ensure your commits follow our 
 
 ## Deployment
 
-_Berliner Haushaltsdaten - Dataviz_ is deployed to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+_Leipzig Haushaltsdaten - Dataviz_ is deployed to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+The static JSON files in `public/data/` are automatically served via Vercel's CDN for optimal performance.
 
 ## Page analytics
 
@@ -208,5 +224,7 @@ Texts and content available as [CC BY](https://creativecommons.org/licenses/by/3
 
 ## Special thanks
 
-This project is inspired by the website [offenerhaushalt.de](https://offenerhaushalt.de) of the [Open Knowledge Foundation](https://okfn.de). This was a website that made budget data for cities and municipalities for Germany viewable in a centralized and standardized way. In recent years, the state of Berlin has used *Offener Haushalt* to visualize its budget data and also present it via embedding on its own Berlin.de website. Since 2021, however, *Offener Haushalt* can no longer be actively maintained. The reason for this is that in the current funding situation, it is difficult to operate platforms that are oriented towards the common good on a permanent basis, and strategies for adoption on the part of the administration are unfortunately lacking.
+This project is inspired by the website [offenerhaushalt.de](https://offenerhaushalt.de) of the [Open Knowledge Foundation](https://okfn.de). This was a website that made budget data for cities and municipalities for Germany viewable in a centralized and standardized way. Since 2021, however, *Offener Haushalt* can no longer be actively maintained. The reason for this is that in the current funding situation, it is difficult to operate platforms that are oriented towards the common good on a permanent basis, and strategies for adoption on the part of the administration are unfortunately lacking.
+
+This Leipzig implementation builds on the original Berlin prototype, adapting it to use static JSON files instead of a database, making it simpler to deploy and maintain for other cities.
 

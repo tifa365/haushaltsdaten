@@ -1,4 +1,4 @@
-import { TreemapHierarchyType } from '@lib/utils/createTreemapStructure'
+import { TreemapHierarchyType } from '@/types/treemap'
 import { TopicType } from 'pages/visualisierung'
 import { FC } from 'react'
 import { TreeMap } from '.'

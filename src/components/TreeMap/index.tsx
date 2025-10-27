@@ -1,11 +1,10 @@
 import { FC, useEffect } from 'react'
 import * as d3 from 'd3'
 import { formatCurrency } from '@lib/utils/numberUtil'
-import { TreemapHierarchyType } from '@lib/utils/createTreemapStructure'
+import { TreemapHierarchyType, TopicDepth } from '@/types/treemap'
 import { getColorByMainTopic } from './colors'
 import { TopicType } from 'pages/visualisierung'
-import { TopicDepth } from '@lib/utils/mapTopicDepthToColumn'
-import { topicDescriptions } from '@data/descriptionData'
+import { policyAreaDescriptions } from '@data/policyAreas'
 
 export interface TreeMapType {
   width?: number
@@ -131,7 +130,7 @@ export const TreeMap: FC<TreeMapType> = ({
         .text(
           (d) =>
             `${d.data.name}\n${'Betrag: € '}${format(d.value || 0)}\n\n${
-              topicDescriptions[d.data.name] || ''
+              policyAreaDescriptions[d.data.id as keyof typeof policyAreaDescriptions] || ''
             }`
         )
 

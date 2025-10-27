@@ -1,4 +1,4 @@
-import { districts } from '@data/districts'
+import { policyAreas } from '@data/policyAreas'
 import { VALID_YEARS } from '../yearValidator'
 
 export interface RawPageQueryType {
@@ -16,7 +16,7 @@ export interface ParsedPageQueryType {
   midTopic: string | null
   deepTopic: string | null
   showExpenses: boolean
-  district: keyof typeof districts
+  district: keyof typeof policyAreas | 'all'
   year: number
   modus: string
 }

@@ -40,103 +40,103 @@ export const FaqPage: FC = () => {
     <div className="px-8">
       <div className="md:w-4/5 m-auto mt-12 md:mt-20">
         <h1 className="font-bold text-2xl md:text-3xl lg:text-4xl lg:ml-28">
-          Wissenswertes zum Berliner Haushalt
+          Wissenswertes zum Leipziger Haushalt
         </h1>
         <div className="lg:w-3/6 m-auto mt-6 md:mt-16">
           <div className="flex-col mt-6">
-            Wie genau funktioniert das eigentlich mit dem Haushalt? Das Land
-            Berlin muss alle voraussichtlichen Einnahmen und Ausgaben eines
+            Wie genau funktioniert das eigentlich mit dem Haushalt? Die Stadt
+            Leipzig muss alle voraussichtlichen Einnahmen und Ausgaben eines
             Jahres im sogenannten Haushaltsplan ausweisen. Für jedes Jahr stellt
-            der Senat einen Haushaltsplanentwurf mit den jeweiligen
-            Einzelhaushalten der Verwaltungen auf.
+            die Verwaltung einen Haushaltsplanentwurf auf.
             <br></br>
-            {/* <h2 className="font-bold text-xl md:text-2xl mt-6 md:mt-12">
-            Berliner Doppelhaushalt
-          </h2> */}
             Haushaltsrechtlich möglich ist es auch, Haushalte für zwei Jahre
-            aufzustellen, jeweils nach Jahren getrennt. In Berlin macht man von
-            dieser Möglichkeit seit 2002 Gebrauch.
+            aufzustellen, jeweils nach Jahren getrennt. Leipzig macht von dieser
+            Möglichkeit Gebrauch und plant mit einem Doppelhaushalt.
           </div>
 
           <p className="text-2xl text-center mt-6 md:mt-16">
-            79,8 Milliarden Euro
+            ~2,4 Milliarden Euro
           </p>
           <p className="text-gray-500 text-xs md:text-sm text-center">
-            stehen Berlin im aktuellen Doppelhaushalt als Gesamtausgaben zur
-            Verfügung
+            stehen Leipzig im Ergebnishaushalt 2025 zur Verfügung
           </p>
 
           <div className="mt-6 md:mt-16">
-            Im Haushalt ist festgelegt, wie viel Geld in den einzelnen
+            Im Haushaltsplan ist festgelegt, wie viel Geld in den einzelnen
             Politikbereichen ausgegeben werden darf. Gleichzeitig wird damit das
-            Budget (Etat) für die Erfüllung der öffentlichen Aufgaben Berlins
-            jährlich festgeschrieben. Die zu erwartenden Einnahmen aus Steuern,
-            Gebühren und weiteren Einnahmen dienen also zur Finanzierung aller
-            Aufgaben des Landes. Mit den Einnahmen steht ein klar begrenzter
-            Rahmen an Mitteln zur Verfügung, der zum großen Teil durch
-            Verpflichtungen Berlins (beispielsweise im Sozialbereich und der
-            Bildung) bereits rechtlich gebunden ist. Die Finanzierung weiterer
-            Aufgaben der Verwaltung (z. B. innere Sicherheit,
-            Wirtschaftsförderung, Kultur) erfolgt nach Vorlage durch den Senat
-            im politischen Abstimmungsprozess mit dem Abgeordnetenhaus.
+            Budget für die Erfüllung der öffentlichen Aufgaben Leipzigs jährlich
+            festgeschrieben. Die zu erwartenden Einnahmen aus Steuern, Gebühren
+            und weiteren Einnahmen dienen zur Finanzierung aller Aufgaben der
+            Stadt. Mit den Einnahmen steht ein klar begrenzter Rahmen an Mitteln
+            zur Verfügung, der zum großen Teil durch Verpflichtungen der Stadt
+            (beispielsweise im Sozialbereich und der Bildung) bereits rechtlich
+            gebunden ist. Die Finanzierung weiterer Aufgaben der Verwaltung (z.
+            B. Kultur, Wirtschaftsförderung, Stadtentwicklung) erfolgt nach
+            Vorlage durch die Verwaltung im politischen Abstimmungsprozess mit
+            dem Stadtrat.
           </div>
 
-          <p className="mt-6 md:mt-16 text-sm flex justify-center">
-            Gesamtausgaben des Berliner Haushalts in Mrd. €
-          </p>
-          <div className="mt-2 flex justify-center">
-            <GroupedBarChart data={TOTAL_EXPENSES} />
+          <div className="mt-6 md:mt-16">
+            Der Leipziger Haushalt gliedert sich in verschiedene Politikbereiche
+            (A-K), die sich an den Aufgabenbereichen der Stadtverwaltung
+            orientieren. Die größten Ausgabenblöcke liegen traditionell in den
+            Bereichen Soziales & Jugend, Verwaltung & Sicherheit sowie Bildung &
+            Kultur.
           </div>
         </div>
 
         <div className="lg:w-3/6 m-auto mt-6 md:mt-12 mb-16 md:mb-28 ">
           <h2 className="font-bold text-xl md:text-2xl">
-            Schwerpunktthemen im aktuellen Haushalt
+            Politikbereiche im Leipziger Haushalt
           </h2>
           <div className="mt-6">
-            Mit dem aktuellen Doppelhaushalt 2024/25 erreicht das Land Berlin
-            einen Höchststand bei Einnahmen und Ausgaben. Besondere
-            Aufmerksamkeit liegt weiterhin auf den Investitionen. Die Berliner
-            Schulbauoffensive (BSO) ist das größte Investitionsvorhaben der
-            letzten und laufenden Legislaturperiode. Damit wird der
-            Sanierungsstau an den Schulen weiter abgebaut, und es werden neue
-            Schulen errichtet.
+            Der Leipziger Ergebnishaushalt ist in elf Politikbereiche (A-K)
+            gegliedert:
             <br></br>
-            Auch die Digitalisierung der Verwaltung soll weiter vorangetrieben
-            werden und ein besonderes Augenmerk liegt auf der inneren
-            Sicherheit. Gleichzeitig bleibt die Konsolidierung des
-            Landeshaushalts im Fokus
             <br></br>
-            Das Land Berlin legt zudem bei Aufstellung und Umsetzung des
-            Haushaltsplans ein Augenmerk auf die Geschlechtergerechtigkeit und
-            integriert Gender Budgeting in seine Haushaltspolitik. Das heißt,
-            dass insbesondere die Ausgaben danach ausgewertet werden, inwieweit
-            sie den Geschlechtern zu gleichen Teilen zugutekommen.
-            <br></br>
-            Mehr zu diesen Themen ist auf der Webseite der Senatsverwaltung für
-            Finanzen zu erfahren.
-          </div>
-
-          <div className="mt-6">
-            <div className="flex-col">
-              <p className="text-brand">
-                <a href="https://www.berlin.de/sen/finanzen/haushalt/gender-budgeting/artikel.1339812.php">
-                  → Gender-Budgeting
-                </a>
-              </p>
-              {/* <p>Berlin ist eines der wenigen Bundesländer,
-          das die Umsetzung von Gender Budgeting im Landeshaushalt explizit
-          formuliert hat und inzwischen dabei ist, Gender Budgeting in die
-          normale Haushaltspolitik zu integrieren.</p> */}
-            </div>
-            <div className="flex-col">
-              <p className="text-brand">
-                <a href="https://www.berlin.de/rbmskzl/aktuelles/pressemitteilungen/2023/pressemitteilung.1344266.php">
-                  → Mehr Mittel für Digitalisierung und innere Sicherheit
-                </a>
-              </p>
-              {/* <p></p> */}
-            </div>
+            <ul className="list-disc pl-6">
+              <li>
+                <strong>A - Verwaltung & Sicherheit:</strong> Innere Verwaltung,
+                öffentliche Ordnung, Feuerwehr
+              </li>
+              <li>
+                <strong>B - Bildung & Kultur:</strong> Schulen, Volkshochschulen,
+                Museen, Theater, Bibliotheken
+              </li>
+              <li>
+                <strong>C - Soziales & Jugend:</strong> Kinder- und Jugendhilfe,
+                Sozialleistungen, Kindertagesbetreuung
+              </li>
+              <li>
+                <strong>D - Gesundheit:</strong> Gesundheitsamt, Gesundheitsschutz
+              </li>
+              <li>
+                <strong>E - Sport & Bäder:</strong> Sportförderung, Schwimmbäder
+              </li>
+              <li>
+                <strong>F - Stadtentwicklung & Wohnen:</strong> Stadtplanung,
+                Wohnungsbau
+              </li>
+              <li>
+                <strong>G - Ver- & Entsorgung:</strong> Abwasser, Abfall
+              </li>
+              <li>
+                <strong>H - Verkehr & Mobilität:</strong> Straßen, öffentlicher
+                Nahverkehr
+              </li>
+              <li>
+                <strong>I - Umwelt & Grün:</strong> Umweltschutz, Grünflächen,
+                Parks
+              </li>
+              <li>
+                <strong>J - Wirtschaft & Tourismus:</strong>
+                Wirtschaftsförderung, Tourismusförderung
+              </li>
+              <li>
+                <strong>K - Finanzwirtschaft:</strong> Allgemeine
+                Finanzwirtschaft, Zinsen, Rücklagen
+              </li>
+            </ul>
           </div>
 
           <h2 className="font-bold text-xl md:text-2xl mt-6 md:mt-12 md:mt-20">
@@ -146,110 +146,74 @@ export const FaqPage: FC = () => {
             Warum werden die Haushaltsdaten visualisiert?
           </h2>
           <ReadMore>
-            {`Der komplette Datensatz des Berliner Haushaltes ist zwar als Open
-            Data veröffentlicht, jedoch aufgrund seiner Länge und Komplexität
+            {`Der Leipziger Haushalt ist aufgrund seiner Länge und Komplexität
             nicht für jede und jeden intuitiv verständlich. Da der Haushalt
-            allerdings von besonderer Relevanz für das Leben in Berlin ist,
+            allerdings von besonderer Relevanz für das Leben in Leipzig ist,
             sollte er möglichst transparent dargestellt und für alle
-            Berlinerinnen und Berliner zugänglich sein. Diese Webseite wurde ins
-            Leben gerufen, um ein möglichst niedrigschwelliges Angebot zu
-            schaffen, sich mit den Haushaltsdaten auseinanderzusetzen.
-            <br><br>Vorlage für die Darstellung der Daten war das Projekt 
+            Leipzigerinnen und Leipziger zugänglich sein. Diese Webseite wurde
+            entwickelt, um ein möglichst niedrigschwelliges Angebot zu schaffen,
+            sich mit den Haushaltsdaten auseinanderzusetzen.
+            <br><br>Vorlage für die Darstellung der Daten war das Projekt
             <a class="text-brand" href="https://offenerhaushalt.de">
               "Offener Haushalt"
-            </a> 
-            der 
+            </a>
+            der
             <a class="text-brand" href="https://okfn.de">
               Open Knowledge Foundation</a>. Dabei handelte es sich um eine Webseite, die Haushaltsdaten für
             Städte und Kommunen für Deutschland zentral und standardisiert
-            einsehbar gemacht hat. Das Land Berlin hat in den letzten Jahren auf
-            „Offener Haushalt“ zurückgegriffen, um seine Haushaltsdaten zu
-            visualisieren und auch via Einbettung auf der eigenen
-            Berlin.de-Webseite zu präsentieren. Seit 2021 kann „Offener
-            Haushalt“ jedoch nicht mehr aktiv gepflegt werden. Grund dafür ist,
-            dass in der aktuellen Förderlandschaft ein dauerhafter Betrieb
-            gemeinwohlorientierter Plattformen schwierig ist und Strategien für
-            die Übernahme seitens der Verwaltung bedauerlicherweise fehlen.`}
+            einsehbar gemacht hat. Seit 2021 kann „Offener Haushalt" jedoch
+            nicht mehr aktiv gepflegt werden. Diese Leipzig-Implementation baut
+            auf dem ursprünglichen Berlin-Prototyp auf und verwendet statische
+            JSON-Dateien statt einer Datenbank, was die Wartung und
+            Weiterentwicklung vereinfacht.`}
           </ReadMore>
 
           <h2 className=" text-xl mt-6 md:mt-12">
             Was genau zeigt die Visualisierung?
           </h2>
           <ReadMore>
-            {`Die interaktiven Kacheldiagramme (Tree Maps) in ihrer Ausgangsform
-              zeigen eine Übersicht der kompletten Ausgaben und Einnahmen des
-              aktuellen Doppelhaushalts der Berliner Verwaltung, sowie des 
-              Doppelhaushalts 2022/2023. Die Flächen der Rechtecke sind dabei 
-              proportional zur Größe der darzustellenden Beträge. Über den 
-              Schieberegeler lässt sich einstellen, ob Einnahmen oder 
-              Ausgaben angezeigt werden sollen - das Diagramm passt sich 
-              entsprechend an. Die gezeigten Beträge gelten jeweils
-              für ein einzelnes Haushaltsjahr. Über das Dropdown-Menü kann daher
-              zwischen den Jahren gewechselt werden. Ebenfalls im Menü
-              auswählbar ist, ob Daten für Gesamt-Berlin, für einen einzelnen
-              Bezirk oder nur die Hauptverwaltungen angezeigt werden sollen.
-              Über das dritte Dropdown-Menü wird ausgewählt, ob die Beträge nach
-              Bereichen oder nach Funktionen sortiert dargestellt werden
-              sollen. Durch Klick auf eine der Flächen in der Tree Map lässt
-              sich die nächst tiefere Detailstufe anzeigen, um einzelne Untergruppen
-              näher zu erkunden. Die unterste detaillierte Angabe zu
-              spezifischen Ausgaben und Einnahmen sind die sogenannten Titel.
-              Die zu der aktuell im Diagramm ausgewählten Gruppe gehörenden
-              Titel, werden unter der Tree Map als Liste angezeigt. Wird im
-              Diagramm durch Klick eine tiefere Detailebene ausgewählt, wird die
-              Liste also dementsprechend gefiltert. Aus Performancegründen
-              werden immer nur die 100 Titel mit den größten Beträgen angezeigt.
-              Titel, Bereiche und Funktionen können auch gezielt über die
-              Suchfunktion gefunden werden.`}
+            {`Die interaktive Visualisierung (Tree Map) zeigt eine Übersicht der
+              Ausgaben des Leipziger Ergebnishaushalts 2025/2026. Die Flächen
+              der Rechtecke sind dabei proportional zur Größe der
+              darzustellenden Beträge. Die gezeigten Beträge gelten jeweils für
+              ein einzelnes Haushaltsjahr. Über das Dropdown-Menü kann zwischen
+              den Jahren gewechselt werden. Durch Klick auf eine der Flächen in
+              der Tree Map lässt sich die nächst tiefere Detailstufe anzeigen,
+              um einzelne Politikbereiche und Produkte näher zu erkunden. Die
+              unterste detaillierte Angabe zu spezifischen Ausgaben sind die
+              einzelnen Produkte (z.B. "Kitas", "Straßenreinigung"). Die zu der
+              aktuell im Diagramm ausgewählten Gruppe gehörenden Produkte werden
+              unter der Tree Map als Liste angezeigt.`}
           </ReadMore>
 
           <h2
             className=" text-xl mt-6 md:mt-12"
             id="Einzelplaene-und-Funktionen"
           >
-            Was sind Bereiche und Funktionen?
+            Was sind Politikbereiche und Produkte?
           </h2>
           <ReadMore>
-            {`Es gibt zwei verschiedene Optionen die Zuordnung der Einnahme- und
-            Ausgabetitel im Diagramm zu sortieren: nach Bereichen oder nach
-            Hauptfunktionen gegliedert. Die Bereiche bieten eine Übersicht
-            über die Einnahmen und Ausgaben der Haupt- und Bezirksverwaltungen
-            unterteilt nach Arten und zuständigem Bereich, z.B. Senatsverwaltung für Inneres
-            oder Schul- und Sportamt des Bezirks Mitte. Die Hauptfunktionen
-            stellen dagegen die Aufgaben dar, die durch die jeweiligen Einnahmen
-            oder Ausgaben erfüllt werden. Sowohl Bereiche als auch Funktionen
-            lassen sich durch Klick in die Tree Map in detailliertere
-            Untergruppen weiter untergliedern. Die unterste detaillierte Angabe
-            zu spezifischen Ausgaben und Einnahmen sind die sogenannten Titel.
-            Die zu den jeweils im Diagramm ausgewählten Bereichen und
-            Funktionen, bzw. deren Untergruppen, gehörenden Titel werden unter
-            der Tree Map als Liste angezeigt.`}
+            {`Der Leipziger Haushalt ist nach Politikbereichen (A-K) gegliedert.
+            Diese Politikbereiche fassen thematisch zusammenhängende Aufgaben
+            zusammen, z.B. "Soziales & Jugend" oder "Bildung & Kultur". Jeder
+            Politikbereich enthält mehrere Produkte. Ein Produkt ist eine
+            konkrete Leistung der Verwaltung, z.B. "Kitas", "Museen" oder
+            "Straßenreinigung". Die Produkte werden durch einen Produktcode
+            (z.B. 3650 für Kitas) identifiziert. Die ersten beiden Ziffern des
+            Produktcodes bestimmen den Politikbereich. Diese Struktur
+            ermöglicht eine klare Zuordnung und Transparenz der Ausgaben.`}
           </ReadMore>
 
           <h2 className=" text-xl mt-6 md:mt-12">Wo kommen die Daten her?</h2>
           <ReadMore>
-            {`Alle dieser Anwendung zugrundeliegenden Daten stammen aus dem Datensatz
-             zum "Doppelhaushalt 2024/2025" und sind als Open Data unter offener Lizenz verfügbar.
-             Sie können frei weiterverwendet und weiterverarbeitet werden.
-            Der Datensatz wird
-            von der 
-            <a
-              class="text-brand"
-              href="https://www.berlin.de/sen/finanzen/"
-            >
-            Senatsverwaltung für Finanzen
-            </a>
-            bereitgestellt und auf dem Berliner 
-            <a class="text-brand" href="https://daten.berlin.de">
-              Datenportal
-            </a> 
-            veröffentlicht. Dort finden sich auch historische Haushaltsdaten der
-            letzten 10 Jahre. Mehr zum Thema offene Daten der Berliner
-            Verwaltung ist auf der Webseite der 
-            <a class="text-brand" href="https://odis-berlin.de">
-              Open Data Informationsstelle
-            </a> 
-            zu finden.`}
+            {`Die Daten dieser Anwendung stammen aus dem Leipziger
+             Ergebnishaushalt 2025/2026. Die Originaldaten liegen als
+             Excel-Dateien (XLSX) vor und werden mit einem automatisierten
+             Node.js-basierten Prozess verarbeitet und in statische JSON-Dateien
+             konvertiert. Diese Architektur ermöglicht eine vollständige
+             Nachvollziehbarkeit: Jede Änderung der Daten wird in Git
+             versioniert und ist transparent nachvollziehbar. Die verarbeiteten
+             Daten können frei weiterverwendet werden.`}
           </ReadMore>
 
           <h2 className=" text-xl mt-6 md:mt-12" id="Open-Source">
@@ -273,27 +237,21 @@ export const FaqPage: FC = () => {
           </ReadMore>
 
           <h2 className=" text-xl mt-6 md:mt-12">
-            Ist die Anwendung auch auf andere Länder und Kommunen übertragbar?
+            Ist die Anwendung auch auf andere Städte und Kommunen übertragbar?
           </h2>
           <ReadMore>
-            {`Die Anwendung bzw. der Quellcode können von anderen Kommunen und
-            Ländern verwendet werden, um ihre eigenen Haushaltsdaten zu
-            präsentieren und transparent bereitzustellen. Voraussetzung ist,
-            dass die jeweiligen Haushaltsdaten in einem maschinenlesbaren Format
-            und geeigneter Struktur vorliegen. Das ist leider nicht in allen
-            Ländern und Kommunen selbstverständlich. Die Haushaltsdaten müssen
-            auf Bundes-, Landes- und Kommunalebene zwar per Gesetz
-            veröffentlicht werden, oft passiert dies jedoch in Form von
+            {`Ja! Die Anwendung bzw. der Quellcode können von anderen Kommunen
+            verwendet werden, um ihre eigenen Haushaltsdaten zu präsentieren und
+            transparent bereitzustellen. Voraussetzung ist, dass die jeweiligen
+            Haushaltsdaten in einem maschinenlesbaren Format (z.B. Excel)
+            vorliegen. Die Haushaltsdaten müssen auf Kommunalebene zwar per
+            Gesetz veröffentlicht werden, oft passiert dies jedoch in Form von
             PDF-Berichten. Diese PDFs können zwar von Menschen gut gelesen
-            werden, für eine weitere Verarbeitung, wie für die Erstellung von
-            Diagrammen, sind sie aber nicht geeignet. Für die Berliner Daten und
-            diese Anwendung nutzen wir ein 
-            <a
-              class="text-brand"
-              href="https://offenerhaushalt.de/page/datenstandard.html"
-            >
-              Datenschema</a>, das von der Open Knowledge Foundation im Projekt „Offener
-            Haushalt“ entwickelt wurde.`}
+            werden, für eine weitere Verarbeitung sind sie aber nicht geeignet.
+            Die Leipzig-Version verwendet statische JSON-Dateien statt einer
+            Datenbank, was die Wartung und den Betrieb stark vereinfacht. Der
+            komplette Quellcode steht auf GitHub zur Verfügung und kann von
+            anderen Städten angepasst und weiterentwickelt werden.`}
           </ReadMore>
         </div>
       </div>
