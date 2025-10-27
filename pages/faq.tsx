@@ -1,8 +1,6 @@
 import { GetStaticProps } from 'next'
 import React, { useState } from 'react'
 import { FC } from 'react'
-import { GroupedBarChart } from '@components/GroupedBarChart'
-import { TOTAL_EXPENSES } from '@data/totalExpenses'
 
 // eslint-disable-next-line @typescript-eslint/require-await
 export const getStaticProps: GetStaticProps = async () => ({
