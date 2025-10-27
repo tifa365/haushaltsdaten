@@ -9,6 +9,8 @@ export const getStaticProps: GetStaticProps = async () => ({
   },
 })
 
+// Note: This page is redirected to /visualisierung via next.config.js
+// Users will never see this content, but the file is kept for reference
 const SearchPage: FC = () => {
   return (
     <div className="px-8">

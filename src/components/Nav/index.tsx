@@ -13,10 +13,11 @@ const NAV_ITEMS = [
     label: 'Visualisierung',
     path: '/visualisierung',
   },
-  {
-    label: 'Textsuche',
-    path: '/search',
-  },
+  // Text search disabled - requires database for full-text search
+  // {
+  //   label: 'Textsuche',
+  //   path: '/search',
+  // },
   {
     label: 'Infos',
     path: '/faq',
