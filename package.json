@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "scripts": {
     "cm": "cz",
+    "data:process": "node scripts/process-leipzig-data.js",
+    "data:generate": "node scripts/generate-static-json.js",
+    "data:build": "npm run data:process && npm run data:generate",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -26,7 +29,6 @@
     "@headlessui/react": "1.6.6",
     "@mdx-js/loader": "2.1.2",
     "@next/mdx": "12.2.0",
-    "@supabase/supabase-js": "1.35.4",
     "classnames": "2.3.1",
     "d3": "7.6.1",
     "just-snake-case": "3.0.1",
@@ -82,6 +84,7 @@
     "storybook-css-modules-preset": "1.1.1",
     "tailwindcss": "3.2.4",
     "tsconfig-paths-webpack-plugin": "3.5.2",
-    "typescript": "4.9.3"
+    "typescript": "4.9.3",
+    "xlsx": "^0.18.5"
   }
 }

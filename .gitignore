@@ -45,6 +45,5 @@ storybook-static
 # Claude Code
 .claude/
 
-# Data files
+# Data files (Excel source files - too large for git)
 daten/
-analyze_daten.py
