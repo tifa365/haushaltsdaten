@@ -1,5 +1,5 @@
 import { ListItem } from '@components/ListItem'
-import snakeCase from 'just-snake-case'
+// import snakeCase from 'just-snake-case'
 import { TreeMapWithData } from '@components/TreeMap/withData'
 import { mapRawQueryToState, ParsedPageQueryType } from '@lib/utils/queryUtil'
 import { GetServerSideProps } from 'next'
