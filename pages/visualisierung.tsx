@@ -186,7 +186,7 @@ export const Visualization: FC<VisualizationProps> = ({
           >
             <div className="w-full z-10">
               <TreeMapControls
-                district={queriedPolicyArea || ALL_POLICY_AREAS}
+                district={(queriedPolicyArea || ALL_POLICY_AREAS) as string}
                 onChange={(newQuery) => {
                   // Clear selected node when filters change
                   setSelectedNode(null)
