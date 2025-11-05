@@ -117,18 +117,19 @@ export const policyAreaDescriptions: Record<PolicyAreaKey, string> = {
 }
 
 /**
- * Policy area colors (matching the colors used in the treemap)
+ * Policy area colors - Muted "Modern Finance" palette (adjusted for distinctiveness)
+ * Cool, grounded, analytical colors perfect for budget visualization
  */
 export const policyAreaColors: Record<PolicyAreaKey, string> = {
-  A: '#3B82F6', // blue
-  B: '#10B981', // green
-  C: '#EF4444', // red
-  D: '#F59E0B', // amber
-  E: '#8B5CF6', // purple
-  F: '#EC4899', // pink
-  G: '#06B6D4', // cyan
-  H: '#6366F1', // indigo
-  I: '#14B8A6', // teal
-  J: '#F97316', // orange
-  K: '#64748B', // slate
+  A: '#4A5F7D', // 1. Darker Slate Blue (distinct from K)
+  B: '#5D8F87', // 2. Soft Teal
+  C: '#9BA050', // 3. Brighter Olive (distinct from J)
+  D: '#A78B6A', // 4. Taupe
+  E: '#9D7A90', // 5. Lighter Plum (distinct from I)
+  F: '#6C6C73', // 6. Steel Gray
+  G: '#B7A45A', // 7. Mustard
+  H: '#B07A5A', // 8. Clay
+  I: '#6F5D75', // 9. Smoky Violet
+  J: '#5E7048', // 10. Darker Moss (distinct from C)
+  K: '#6A80A0', // 11. Lighter Blue-Gray (distinct from A)
 }

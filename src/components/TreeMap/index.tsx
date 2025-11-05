@@ -138,12 +138,19 @@ export const TreeMap: FC<TreeMapType> = ({
       node
         .append('rect')
         .attr('fill', (d) => {
-          const mainTopic = d.parent
-            ? d.ancestors().find((ancestor) => ancestor.depth === 1)?.data
-                .name || ''
-            : d.data.name
+          if (d === root) return '#fff'
 
-          return d === root ? '#fff' : getColorByMainTopic(mainTopic)
+          // Use color from data if available (policy blocks have colors)
+          const topLevelAncestor = d.ancestors().find((ancestor) => ancestor.depth === 1)
+          if (topLevelAncestor?.data.color) {
+            return topLevelAncestor.data.color
+          }
+
+          // Fallback to legacy color lookup
+          const mainTopic = d.parent
+            ? d.ancestors().find((ancestor) => ancestor.depth === 1)?.data.name || ''
+            : d.data.name
+          return getColorByMainTopic(mainTopic)
         })
         .attr('stroke', '#fff')
 

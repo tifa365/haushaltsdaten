@@ -35,9 +35,17 @@ const BLOCK_NAMES = {
 };
 
 const BLOCK_COLORS = {
-  'A': '#3B82F6', 'B': '#10B981', 'C': '#EF4444', 'D': '#F59E0B',
-  'E': '#8B5CF6', 'F': '#EC4899', 'G': '#06B6D4', 'H': '#6366F1',
-  'I': '#14B8A6', 'J': '#F97316', 'K': '#64748B'
+  'A': '#4A5F7D', // 1. Darker Slate Blue (was too close to K)
+  'B': '#5D8F87', // 2. Soft Teal
+  'C': '#9BA050', // 3. Brighter Olive (was too close to J)
+  'D': '#A78B6A', // 4. Taupe
+  'E': '#9D7A90', // 5. Lighter Plum (was too close to I)
+  'F': '#6C6C73', // 6. Steel Gray
+  'G': '#B7A45A', // 7. Mustard
+  'H': '#B07A5A', // 8. Clay
+  'I': '#6F5D75', // 9. Smoky Violet
+  'J': '#5E7048', // 10. Darker Moss (was too close to C)
+  'K': '#6A80A0'  // 11. Lighter Blue-Gray (was same as A)
 };
 
 function processErgebnishaushalt(filepath) {

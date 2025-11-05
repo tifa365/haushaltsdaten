@@ -6,7 +6,7 @@
       "id": "A",
       "name": "Verwaltung & Sicherheit",
       "value": 389233195.48999995,
-      "color": "#3B82F6",
+      "color": "#4A5F7D",
       "children": [
         {
           "id": "1114",
@@ -11465,7 +11465,7 @@
       "id": "B",
       "name": "Bildung & Kultur",
       "value": 346242686.2299998,
-      "color": "#10B981",
+      "color": "#5D8F87",
       "children": [
         {
           "id": "2111",
@@ -24304,7 +24304,7 @@
       "id": "C",
       "name": "Soziales & Jugend",
       "value": 1094538445.3299997,
-      "color": "#EF4444",
+      "color": "#9BA050",
       "children": [
         {
           "id": "3111",
@@ -33655,7 +33655,7 @@
       "id": "D",
       "name": "Gesundheit",
       "value": 31507255.910000008,
-      "color": "#F59E0B",
+      "color": "#A78B6A",
       "children": [
         {
           "id": "4140",
@@ -35400,7 +35400,7 @@
       "id": "E",
       "name": "Sport & Bäder",
       "value": 33667228.62,
-      "color": "#8B5CF6",
+      "color": "#9D7A90",
       "children": [
         {
           "id": "4210",
@@ -35899,7 +35899,7 @@
       "id": "F",
       "name": "Stadtentwicklung & Wohnen",
       "value": 60290946.31999999,
-      "color": "#EC4899",
+      "color": "#6C6C73",
       "children": [
         {
           "id": "5120",
@@ -37604,7 +37604,7 @@
       "id": "G",
       "name": "Ver- & Entsorgung",
       "value": 10475997.099999998,
-      "color": "#06B6D4",
+      "color": "#B7A45A",
       "children": [
         {
           "id": "5360",
@@ -37925,7 +37925,7 @@
       "id": "H",
       "name": "Verkehr & Mobilität",
       "value": 116821899.14,
-      "color": "#6366F1",
+      "color": "#B07A5A",
       "children": [
         {
           "id": "5410",
@@ -39460,7 +39460,7 @@
       "id": "I",
       "name": "Umwelt & Grün",
       "value": 64864941.04999996,
-      "color": "#14B8A6",
+      "color": "#6F5D75",
       "children": [
         {
           "id": "5510",
@@ -43863,7 +43863,7 @@
       "id": "J",
       "name": "Wirtschaft & Tourismus",
       "value": 37379472.61,
-      "color": "#F97316",
+      "color": "#5E7048",
       "children": [
         {
           "id": "5750",
@@ -45078,7 +45078,7 @@
       "id": "K",
       "name": "Finanzwirtschaft",
       "value": 250834350,
-      "color": "#64748B",
+      "color": "#6A80A0",
       "children": [
         {
           "id": "6120",

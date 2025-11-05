@@ -46,7 +46,6 @@ interface VisualizationProps {
 const ALL_POLICY_AREAS = 'all'
 const MAX_ROWS = 100
 
-// eslint-disable-next-line @typescript-eslint/require-await
 export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   const parsedQuery = query ? mapRawQueryToState(query) : {}
 
