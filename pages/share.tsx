@@ -22,9 +22,8 @@ interface SharePageProps {
   hierarchyData: TreemapNode
 }
 
-const ALL_POLICY_AREAS = 'all'
+// const ALL_POLICY_AREAS = 'all'
 
-// eslint-disable-next-line @typescript-eslint/require-await
 export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   const parsedQuery = query ? mapRawQueryToState(query) : {}
 
