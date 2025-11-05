@@ -7,7 +7,7 @@ import { FC, useState, useEffect } from 'react'
 import useDimensions from 'react-cool-dimensions'
 import { TreeMapControls } from '@components/TreeMapControls'
 import classNames from 'classnames'
-import { policyAreas } from '@data/policyAreas'
+import { policyAreas, PolicyAreaKey } from '@data/policyAreas'
 import { getColorByMainTopic } from '@components/TreeMap/colors'
 import { useRouter } from 'next/router'
 import { EmbeddPopup } from '@components/EmbeddPopup'
@@ -38,7 +38,7 @@ interface BudgetItem {
 interface VisualizationProps {
   query: Partial<ParsedPageQueryType>
   queriedYear: number
-  queriedPolicyArea: string | null
+  queriedPolicyArea: PolicyAreaKey | 'all' | null
   hierarchyData: TreemapNode
   initialListData: BudgetItem[]
 }
@@ -49,9 +49,9 @@ const MAX_ROWS = 100
 export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   const parsedQuery = query ? mapRawQueryToState(query) : {}
 
-  const queriedPolicyArea =
+  const queriedPolicyArea: PolicyAreaKey | 'all' | null =
     parsedQuery && parsedQuery.district && !Array.isArray(parsedQuery.district)
-      ? parsedQuery.district
+      ? (parsedQuery.district as PolicyAreaKey | 'all')
       : null
 
   const queriedYear = parsedQuery.year
@@ -186,7 +186,7 @@ export const Visualization: FC<VisualizationProps> = ({
           >
             <div className="w-full z-10">
               <TreeMapControls
-                district={(queriedPolicyArea || ALL_POLICY_AREAS) as string}
+                district={queriedPolicyArea || ALL_POLICY_AREAS}
                 onChange={(newQuery) => {
                   // Clear selected node when filters change
                   setSelectedNode(null)
