@@ -98,15 +98,16 @@ export const FaqPage: FC = () => {
                 öffentliche Ordnung, Feuerwehr
               </li>
               <li>
-                <strong>B - Bildung & Kultur:</strong> Schulen, Volkshochschulen,
-                Museen, Theater, Bibliotheken
+                <strong>B - Bildung & Kultur:</strong> Schulen,
+                Volkshochschulen, Museen, Theater, Bibliotheken
               </li>
               <li>
                 <strong>C - Soziales & Jugend:</strong> Kinder- und Jugendhilfe,
                 Sozialleistungen, Kindertagesbetreuung
               </li>
               <li>
-                <strong>D - Gesundheit:</strong> Gesundheitsamt, Gesundheitsschutz
+                <strong>D - Gesundheit:</strong> Gesundheitsamt,
+                Gesundheitsschutz
               </li>
               <li>
                 <strong>E - Sport & Bäder:</strong> Sportförderung, Schwimmbäder

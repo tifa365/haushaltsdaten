@@ -68,6 +68,7 @@ module.exports = {
 				'@typescript-eslint/no-unsafe-member-access': 'warn',
 				'@typescript-eslint/no-unsafe-call': 'warn',
 				'@typescript-eslint/no-unnecessary-type-assertion': 'warn',
+				'@typescript-eslint/require-await': 'warn',
 			},
 		},
 	],

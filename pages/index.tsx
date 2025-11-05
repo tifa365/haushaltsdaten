@@ -32,8 +32,7 @@ export const HomePage: FC = () => {
             Ressourcen einsetzt. Diese Webseite bietet einen Überblick über die
             geplanten Ausgaben der Stadt Leipzig für den aktuellen
             Doppelhaushalt 2025/26, aufgeschlüsselt nach Politikbereichen wie
-            Soziales, Bildung, Verwaltung und weiteren Bereichen. Sie steht
-            als{' '}
+            Soziales, Bildung, Verwaltung und weiteren Bereichen. Sie steht als{' '}
             <span className="text-brand">
               <InternalLink href={'/faq'} query={{ hashId: 'Open-Source' }}>
                 Open Source Projekt
@@ -45,7 +44,9 @@ export const HomePage: FC = () => {
 
         <div className="lg:w-3/6 m-auto mt-12 md:mt-20">
           <div className="text-2xl md:text-4xl flex-col">
-            <h1 className="flex lg:mt-28">Wie viel Geld gibt Leipzig aus für</h1>
+            <h1 className="flex lg:mt-28">
+              Wie viel Geld gibt Leipzig aus für
+            </h1>
             <h1 className="font-bold flex text-brand">
               <TypeAnimation
                 cursor={false}
@@ -72,9 +73,9 @@ export const HomePage: FC = () => {
             Kosten: Gehälter für Lehrerinnen und Lehrer, der Betrieb
             öffentlicher Gebäude, die Förderung von kulturellen Einrichtungen,
             Sozialleistungen, Verkehrsinfrastruktur. Hinzu kommen Investitionen
-            in Schulen, den öffentlichen Nahverkehr, Parks und
-            Erholungsflächen. All diese Ausgaben trägt die Stadt Leipzig. Doch
-            wofür wird wieviel Geld ausgegeben?
+            in Schulen, den öffentlichen Nahverkehr, Parks und Erholungsflächen.
+            All diese Ausgaben trägt die Stadt Leipzig. Doch wofür wird wieviel
+            Geld ausgegeben?
             <br></br>
             <br></br>
             Die Ausgaben legt der Leipziger Stadtrat im Haushaltsplan fest. Sie
@@ -124,10 +125,9 @@ export const HomePage: FC = () => {
           einzelnen Politikbereiche und Jahre im Detail erkundet werden.
           <br></br>
           <br></br>
-          Die detailliertesten Angaben zu spezifischen Beträgen im
-          Haushaltsplan sind die einzelnen Produkte. Sie können über die
-          Visualisierung gefiltert werden und erscheinen dann unter der Tree
-          Map.
+          Die detailliertesten Angaben zu spezifischen Beträgen im Haushaltsplan
+          sind die einzelnen Produkte. Sie können über die Visualisierung
+          gefiltert werden und erscheinen dann unter der Tree Map.
           <div className="flex-col mt-6 md:mt-16">
             Wie kommt der Haushalt zustande? Die Stadt Leipzig muss alle
             voraussichtlichen Einnahmen und Ausgaben eines Jahres in einem
