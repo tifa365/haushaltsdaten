@@ -1,16 +1,19 @@
 import { FC, useEffect } from 'react'
 import * as d3 from 'd3'
 import { formatCurrency } from '@lib/utils/numberUtil'
-import { TreemapHierarchyType, TopicDepth } from '@/types/treemap'
+import { TreemapHierarchyType, TopicDepth } from '../../types/treemap'
 import { getColorByMainTopic } from './colors'
-import { TopicType } from 'pages/visualisierung'
+// import { TopicType } from 'pages/visualisierung'
 import { policyAreaDescriptions } from '@data/policyAreas'
 
 export interface TreeMapType {
   width?: number
   height?: number
   hierarchy: TreemapHierarchyType
-  onChangeLevel?: (level: TopicType) => void
+  onChangeLevel?: (level: {
+    topicLabel?: string
+    topicDepth?: TopicDepth
+  }) => void
 }
 
 export interface TreemapItem {
@@ -130,7 +133,9 @@ export const TreeMap: FC<TreeMapType> = ({
         .text(
           (d) =>
             `${d.data.name}\n${'Betrag: € '}${format(d.value || 0)}\n\n${
-              policyAreaDescriptions[d.data.id as keyof typeof policyAreaDescriptions] || ''
+              policyAreaDescriptions[
+                d.data.id as keyof typeof policyAreaDescriptions
+              ] || ''
             }`
         )
 
@@ -141,14 +146,17 @@ export const TreeMap: FC<TreeMapType> = ({
           if (d === root) return '#fff'
 
           // Use color from data if available (policy blocks have colors)
-          const topLevelAncestor = d.ancestors().find((ancestor) => ancestor.depth === 1)
+          const topLevelAncestor = d
+            .ancestors()
+            .find((ancestor) => ancestor.depth === 1)
           if (topLevelAncestor?.data.color) {
             return topLevelAncestor.data.color
           }
 
           // Fallback to legacy color lookup
           const mainTopic = d.parent
-            ? d.ancestors().find((ancestor) => ancestor.depth === 1)?.data.name || ''
+            ? d.ancestors().find((ancestor) => ancestor.depth === 1)?.data
+                .name || ''
             : d.data.name
           return getColorByMainTopic(mainTopic)
         })

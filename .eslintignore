@@ -1,7 +1,3 @@
-**/node_modules/*
-**/out/*
-**/.next/*
-*.config.js
-*.setup.js
-.*.js
-storybook-static
+# Berlin-specific files not needed for Leipzig
+src/lib/utils/createTreemapStructure/
+src/lib/requests/

@@ -1,4 +1,5 @@
-import { TopicColumnName } from '@lib/requests/getRowsByTopic'
+// import { TopicColumnName } from '@lib/requests/getRowsByTopic'
+type TopicColumnName = string
 
 /**
  * The TopicDepth describes the depth of the current level within the treemap.

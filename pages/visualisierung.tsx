@@ -58,7 +58,8 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
 
   // Load static JSON data from filesystem (server-side)
   const dataDir = path.join(process.cwd(), 'public', 'data')
-  const year = queriedYear && isValidYear(queriedYear) ? queriedYear : DEFAULT_YEAR
+  const year =
+    queriedYear && isValidYear(queriedYear) ? queriedYear : DEFAULT_YEAR
 
   try {
     // Load treemap data
@@ -226,26 +227,26 @@ export const Visualization: FC<VisualizationProps> = ({
               Höchste Ausgaben
               {queriedPolicyArea &&
                 queriedPolicyArea !== ALL_POLICY_AREAS &&
-                ` – ${policyAreas[queriedPolicyArea as keyof typeof policyAreas]}`}
+                ` – ${
+                  policyAreas[queriedPolicyArea as keyof typeof policyAreas]
+                }`}
             </h2>
             {isLoading ? (
               <div className="text-center py-12">Lädt...</div>
             ) : (
               <>
                 <ul className="flex flex-col gap-4">
-                  {listData
-                    .slice(0, visibleRows)
-                    .map((item) => (
-                      <ListItem
-                        key={item.id}
-                        title={item.title}
-                        id={item.id}
-                        group={item.policyAreaName}
-                        groupColor={getColorByMainTopic(item.policyAreaName)}
-                        district={item.amt}
-                        price={item.amount}
-                      />
-                    ))}
+                  {listData.slice(0, visibleRows).map((item) => (
+                    <ListItem
+                      key={item.id}
+                      title={item.title}
+                      id={item.id}
+                      group={item.policyAreaName}
+                      groupColor={getColorByMainTopic(item.policyAreaName)}
+                      district={item.amt}
+                      price={item.amount}
+                    />
+                  ))}
                 </ul>
 
                 <div className="justify-center flex mt-8">

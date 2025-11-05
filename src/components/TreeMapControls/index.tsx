@@ -1,12 +1,12 @@
 import { ListBox } from '@components/ListBox'
-import { ToggleSwitch } from '@components/Toggle'
+// import { ToggleSwitch } from '@components/Toggle'
 import { policyAreas } from '@data/policyAreas'
 import { mapRawQueryToState, ParsedPageQueryType } from '@lib/utils/queryUtil'
 import { DEFAULT_YEAR, VALID_YEARS } from '@lib/utils/yearValidator'
 import classNames from 'classnames'
 import { useRouter } from 'next/router'
 import { FC } from 'react'
-import { InternalLink } from '@components/InternalLink'
+// import { InternalLink } from '@components/InternalLink'
 import { isValidYear } from '@lib/utils/yearValidator'
 
 export type TreeMapControlsPropType = Partial<ParsedPageQueryType> & {
@@ -38,7 +38,7 @@ export const TreeMapControls: FC<TreeMapControlsPropType> = ({
       .map((key) => ({
         id: key,
         name: policyAreas[key as keyof typeof policyAreas] || ' ',
-      }))
+      })),
   ]
   const foundPolicyArea = mappedPolicyAreas.find(({ id }) => id === district)
 

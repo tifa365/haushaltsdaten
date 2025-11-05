@@ -1,5 +1,5 @@
-import { TreemapHierarchyType } from '@/types/treemap'
-import { TopicType } from 'pages/visualisierung'
+import { TreemapHierarchyType, TopicDepth } from '../../types/treemap'
+// import { TopicType } from 'pages/visualisierung'
 import { FC } from 'react'
 import { TreeMap } from '.'
 
@@ -7,7 +7,10 @@ interface TreeMapWithDataPropType {
   hierarchy: TreemapHierarchyType
   width: number
   height: number
-  onChangeLevel?: (level: TopicType) => void
+  onChangeLevel?: (level: {
+    topicLabel?: string
+    topicDepth?: TopicDepth
+  }) => void
 }
 
 export const TreeMapWithData: FC<TreeMapWithDataPropType> = ({

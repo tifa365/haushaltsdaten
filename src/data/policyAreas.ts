@@ -5,7 +5,7 @@
  * Each policy area groups related budget products by their first two digits.
  */
 
-type PolicyAreaKey =
+export type PolicyAreaKey =
   | 'A'
   | 'B'
   | 'C'

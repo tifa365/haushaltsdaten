@@ -58,8 +58,6 @@
     ".importjs.js",
     "*.config.js",
     ".prettierrc.js",
-    "i18n.js",
-    "src/lib/utils/createTreemapStructure/**/*",
-    "src/lib/requests/**/*"
+    "i18n.js"
   ]
 }
