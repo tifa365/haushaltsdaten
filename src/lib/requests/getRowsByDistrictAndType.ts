@@ -1,5 +1,5 @@
 import { DistrictLabel } from '@data/districts'
-import { supabase } from '@lib/requests/createSupabaseClient'
+import { getDb } from '@lib/db'
 
 export interface HaushaltsdatenRowType {
   id: string
@@ -43,96 +43,46 @@ export interface MapColumsEinzelplanType {
 }
 
 /**
- * Retrieves rows from the Haushaltdaten based on the provided `district` and `expenseType`. There is no further filtering as to which topic group the rows belong to.
+ * Retrieves rows from the Haushaltdaten based on the provided `district` and `expenseType`.
  */
-export const getRowsByDistrictAndType = async ({
+export const getRowsByDistrictAndType = ({
   district,
   expenseType,
   year,
   modus,
-}: GetRowsByDistrictAndTypeParamsType): Promise<
-  HaushaltsdatenRowType[] | undefined
-> => {
+}: GetRowsByDistrictAndTypeParamsType): HaushaltsdatenRowType[] | undefined => {
+  const db = getDb()
+
+  const isFunktionen = modus === 'Funktionen'
+  const columns = isFunktionen
+    ? 'id, betrag, bereichs_bezeichnung, titel_bezeichnung, hauptfunktions_bezeichnung, oberfunktions_bezeichnung, funktions_bezeichnung'
+    : 'id, betrag, bereichs_bezeichnung, titel_bezeichnung, einzelplan_bezeichnung, kapitel_bezeichnung'
+
+  let sql = `SELECT ${columns} FROM haushaltsdaten WHERE jahr = ? AND titel_art = ?`
+  const params: (string | number)[] = [year, expenseType]
+
   if (district) {
-    if (modus == 'Funktionen') {
-      const { data, error } = await supabase
-        .from('haushaltsdaten_current')
-        .select(
-          'id, betrag, bereichs_bezeichnung, titel_bezeichnung, hauptfunktions_bezeichnung, oberfunktions_bezeichnung, funktions_bezeichnung'
-        )
-        .eq('jahr', year)
-        .eq('titel_art', expenseType)
-        .eq('bereichs_bezeichnung', district)
-        .order('id', { ascending: false })
-
-      if (error) throw error
-
-      data.map((el: MapColumsFunktionType) => {
-        el.hauptKey = el.hauptfunktions_bezeichnung
-        el.oberKey = el.oberfunktions_bezeichnung
-        el.funktionKey = el.funktions_bezeichnung
-      })
-
-      return data as HaushaltsdatenRowType[]
-    } else {
-      const { data, error } = await supabase
-        .from('haushaltsdaten_current')
-        .select(
-          'id, betrag, bereichs_bezeichnung, titel_bezeichnung, einzelplan_bezeichnung, kapitel_bezeichnung'
-        )
-        .eq('jahr', year)
-        .eq('titel_art', expenseType)
-        .eq('bereichs_bezeichnung', district)
-        .order('id', { ascending: false })
-
-      if (error) throw error
-
-      data.map((el: MapColumsEinzelplanType) => {
-        el.hauptKey = el.bereichs_bezeichnung
-        el.oberKey = el.einzelplan_bezeichnung
-        el.funktionKey = el.kapitel_bezeichnung
-      })
-      console.log(data)
-
-      return data as HaushaltsdatenRowType[]
-    }
-  } else {
-    if (modus == 'Funktionen') {
-      const { data, error } = await supabase
-        .from('haushaltsdaten_current')
-        .select(
-          'id, betrag, bereichs_bezeichnung, titel_bezeichnung, hauptfunktions_bezeichnung, oberfunktions_bezeichnung, funktions_bezeichnung'
-        )
-        .eq('jahr', year)
-        .eq('titel_art', expenseType)
-        .order('id', { ascending: false })
-
-      if (error) throw error
-      data.map((el: MapColumsFunktionType) => {
-        el.hauptKey = el.hauptfunktions_bezeichnung
-        el.oberKey = el.oberfunktions_bezeichnung
-        el.funktionKey = el.funktions_bezeichnung
-      })
-
-      return data as HaushaltsdatenRowType[]
-    } else {
-      const { data, error } = await supabase
-        .from('haushaltsdaten_current')
-        .select(
-          'id, betrag, bereichs_bezeichnung, titel_bezeichnung, einzelplan_bezeichnung, kapitel_bezeichnung'
-        )
-        .eq('jahr', year)
-        .eq('titel_art', expenseType)
-        .order('id', { ascending: false })
-
-      if (error) throw error
-      data.map((el: MapColumsEinzelplanType) => {
-        el.hauptKey = el.bereichs_bezeichnung
-        el.oberKey = el.einzelplan_bezeichnung
-        el.funktionKey = el.kapitel_bezeichnung
-      })
-
-      return data as HaushaltsdatenRowType[]
-    }
+    sql += ' AND bereichs_bezeichnung = ?'
+    params.push(district)
   }
+
+  sql += ' ORDER BY id DESC'
+
+  const data = db.prepare(sql).all(...params) as Record<string, string>[]
+
+  if (isFunktionen) {
+    data.forEach((el) => {
+      el.hauptKey = el.hauptfunktions_bezeichnung
+      el.oberKey = el.oberfunktions_bezeichnung
+      el.funktionKey = el.funktions_bezeichnung
+    })
+  } else {
+    data.forEach((el) => {
+      el.hauptKey = el.bereichs_bezeichnung
+      el.oberKey = el.einzelplan_bezeichnung
+      el.funktionKey = el.kapitel_bezeichnung
+    })
+  }
+
+  return data as unknown as HaushaltsdatenRowType[]
 }

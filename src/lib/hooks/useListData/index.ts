@@ -3,7 +3,7 @@ import {
   GetRowsByDistrictAndTypeParamsType,
   HaushaltsdatenRowType,
 } from '@lib/requests/getRowsByDistrictAndType'
-import { getRowsByTopic, TopicColumnName } from '@lib/requests/getRowsByTopic'
+import { TopicColumnName } from '@lib/requests/getRowsByTopic'
 import useSWR from 'swr'
 
 interface useListDataParamsType {
@@ -22,6 +22,14 @@ interface useListDataReturnType {
   error: Error | null
 }
 
+const fetchRowsByTopic = async (
+  url: string
+): Promise<HaushaltsdatenRowType[]> => {
+  const res = await fetch(url)
+  const data = (await res.json()) as HaushaltsdatenRowType[]
+  return data
+}
+
 export const useListData = ({
   district,
   type,
@@ -31,22 +39,19 @@ export const useListData = ({
   topicValue,
   initialData,
 }: useListDataParamsType): useListDataReturnType => {
-  const params = [
-    `${year} - ${district || 'Alle Bereiche'} - ${type} - ${
-      topicColumn || 'Alle Spalten'
-    } - ${topicValue || 'Alle Werte'}`,
-  ]
-  const { data, error } = useSWR<HaushaltsdatenRowType[] | undefined, Error>(
-    params,
-    () =>
-      getRowsByTopic({
-        district: district,
-        expenseType: type,
-        year: year,
-        modus: modus,
-        topicColumn: topicColumn || undefined,
-        topicValue: topicValue,
-      }),
+  const params = new URLSearchParams()
+  params.set('year', String(year))
+  params.set('expenseType', type)
+  params.set('modus', modus)
+  if (district) params.set('district', district)
+  if (topicColumn) params.set('topicColumn', topicColumn)
+  if (topicValue) params.set('topicValue', topicValue)
+
+  const url = `/api/rows-by-topic?${params.toString()}`
+
+  const { data, error } = useSWR<HaushaltsdatenRowType[], Error>(
+    url,
+    fetchRowsByTopic,
     { fallbackData: initialData }
   )
 

@@ -57,7 +57,7 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   const queriedYear = parsedQuery.year
   const queriedModus = parsedQuery.modus
 
-  const data = await getRowsByDistrictAndType({
+  const data = getRowsByDistrictAndType({
     district:
       !!queriedDistrictId && queriedDistrictId !== ALL_DISTRICTS_ID
         ? districts[queriedDistrictId as keyof typeof districts]

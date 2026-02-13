@@ -41,3 +41,11 @@ yarn-error.log*
 
 # Storybook
 storybook-static
+
+# SQLite database (generated via npm run db:import)
+data/*.db
+data/*.db-wal
+data/*.db-shm
+
+# Raw budget CSV data
+*.csv

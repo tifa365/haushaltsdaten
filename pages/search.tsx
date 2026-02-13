@@ -1,5 +1,4 @@
 import React, { FC, useEffect, useRef, useState } from 'react'
-import { supabase } from '@lib/requests/createSupabaseClient'
 import { GetStaticProps } from 'next'
 import classNames from 'classnames'
 import { formatCurrency } from '@lib/utils/numberUtil'
@@ -77,39 +76,42 @@ export const Search: FC = () => {
     form.current['search'].value = ''
   }
   const fetchData: (value: string) => Promise<void> = async (value) => {
-    const { data, error } = await supabase.rpc('ftc', { search: value })
-    setLoading(false)
-    if (error) {
-      console.error(error)
-      throw new Error(error.message)
-    }
-    if (!data || data.length === 0) {
-      setResults(null)
-      setSearchTerm(value)
-    } else {
-      setSearchTerm(value)
-      const mappedData: FilteredSearchResultsType[] = data.map(
-        (row: FilteredSearchResultsType) => {
-          return {
-            titel_bezeichnung: row['titel_bezeichnung'],
-            titel_art: row['titel_art'],
-            jahr: row['jahr'],
-            betrag: `${formatCurrency(parseInt(row['betrag'], 10))} €`,
-            bereichs_bezeichnung: row['bereichs_bezeichnung'],
-            einzelplan_bezeichnung: row['einzelplan_bezeichnung'],
-            kapitel_bezeichnung: row['kapitel_bezeichnung'],
-            hauptfunktions_bezeichnung: row['hauptfunktions_bezeichnung'],
-            oberfunktions_bezeichnung: row['oberfunktions_bezeichnung'],
-            funktions_bezeichnung: row['funktions_bezeichnung'],
-            hauptgruppen_bezeichnung: row['hauptgruppen_bezeichnung'],
-            obergruppen_bezeichnung: row['obergruppen_bezeichnung'],
-            gruppen_bezeichnung: row['gruppen_bezeichnung'],
-            titel: row['titel'],
-            id: row['id'],
+    try {
+      const url = `/api/search?q=${encodeURIComponent(value)}`
+      const res = await fetch(url)
+      const data = (await res.json()) as FilteredSearchResultsType[]
+      setLoading(false)
+      if (!data || data.length === 0) {
+        setResults(null)
+        setSearchTerm(value)
+      } else {
+        setSearchTerm(value)
+        const mappedData: FilteredSearchResultsType[] = data.map(
+          (row: FilteredSearchResultsType) => {
+            return {
+              titel_bezeichnung: row['titel_bezeichnung'],
+              titel_art: row['titel_art'],
+              jahr: row['jahr'],
+              betrag: `${formatCurrency(parseInt(row['betrag'], 10))} €`,
+              bereichs_bezeichnung: row['bereichs_bezeichnung'],
+              einzelplan_bezeichnung: row['einzelplan_bezeichnung'],
+              kapitel_bezeichnung: row['kapitel_bezeichnung'],
+              hauptfunktions_bezeichnung: row['hauptfunktions_bezeichnung'],
+              oberfunktions_bezeichnung: row['oberfunktions_bezeichnung'],
+              funktions_bezeichnung: row['funktions_bezeichnung'],
+              hauptgruppen_bezeichnung: row['hauptgruppen_bezeichnung'],
+              obergruppen_bezeichnung: row['obergruppen_bezeichnung'],
+              gruppen_bezeichnung: row['gruppen_bezeichnung'],
+              titel: row['titel'],
+              id: row['id'],
+            }
           }
-        }
-      )
-      setResults(mappedData)
+        )
+        setResults(mappedData)
+      }
+    } catch (err) {
+      setLoading(false)
+      console.error(err)
     }
   }
 
@@ -126,7 +128,7 @@ export const Search: FC = () => {
           <div className="lg:w-3/6 m-auto mt-6 md:mt-16">
             <div className="flex-col mt-6">
               Mithilfe dieser Funktion können die gesamten Haushalte der Jahre
-              2022 bis 2025 durchsucht werden. Es kann sowohl nach Bereichen,
+              2026 bis 2027 durchsucht werden. Es kann sowohl nach Bereichen,
               Kapiteln (Zuständigkeiten), Funktionen und Gruppen (Art der
               Ausgaben und Einnahmen), als auch stichwortartig nach den
               einzelnen Ausgabetiteln gesucht werden. Auch Kombinationen und
