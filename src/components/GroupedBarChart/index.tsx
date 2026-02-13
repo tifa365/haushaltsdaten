@@ -92,7 +92,9 @@ export const GroupedBarChart: FC<GroupedBarChartProps> = ({ data }) => {
   return (
     <>
       <svg
-        viewBox={`0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`}
+        viewBox={`0 0 ${width + margin.left + margin.right} ${
+          height + margin.top + margin.bottom
+        }`}
         className="w-full max-w-[600px]"
       >
         <g transform={`translate(${margin.left}, ${margin.top})`}>
