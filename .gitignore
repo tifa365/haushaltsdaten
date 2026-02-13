@@ -46,5 +46,5 @@ storybook-static
 data/*.db-wal
 data/*.db-shm
 
-# Generated data files
-public/data/
+# Generated data files (uncomment to exclude from git)
+# public/data/
