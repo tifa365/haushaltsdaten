@@ -3,6 +3,7 @@ import { GetStaticProps } from 'next'
 import { FC } from 'react'
 import TypeAnimation from 'react-type-animation'
 import { InternalLink } from '@components/InternalLink'
+import { useRouter } from 'next/router'
 
 // eslint-disable-next-line @typescript-eslint/require-await
 export const getStaticProps: GetStaticProps = async () => {
@@ -14,6 +15,7 @@ export const getStaticProps: GetStaticProps = async () => {
 }
 
 export const HomePage: FC = () => {
+  const { basePath } = useRouter()
   return (
     <div className="px-8">
       <div className="md:w-4/5 m-auto mt-12 lg:mt-20">
@@ -112,7 +114,7 @@ export const HomePage: FC = () => {
               title="Beispiel-Visualisierung der Haushaltsdaten"
               width="400rem"
               height="400"
-              src="https://haushaltsdaten.odis-berlin.de/share"
+              src={`${basePath}/share`}
             ></iframe>
           </div>
         </div>
