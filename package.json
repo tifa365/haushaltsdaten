@@ -6,7 +6,7 @@
     "cm": "cz",
     "dev": "next dev",
     "build": "next build && next export",
-    "prebuild": "node scripts/export-json.js",
+    "db:export": "node scripts/export-json.js",
     "test": "jest --maxWorkers=50% --coverage --collectCoverageFrom='./(src|pages)/**/*.ts(x)?' --collectCoverageFrom='!./(src|pages)/**/*.stories.ts(x)?'",
     "test:watch": "npm run test -- --watch",
     "test:ci": "jest --runInBand",
