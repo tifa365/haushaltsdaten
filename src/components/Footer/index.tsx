@@ -137,14 +137,14 @@ export const Footer: FC = () => {
         <div className="container max-w-8xl mx-auto py-6 block sm:flex justify-between">
           <div className="flex items-center">
             <p className="text-sm text-gray-700">
-              Basierend auf einem Open-Source-Projekt der{' '}
+              Basierend auf:{' '}
               <a
-                href="https://www.technologiestiftung-berlin.de"
+                href="https://github.com/berlin/haushaltsdaten"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-brand transition-colors underline"
               >
-                Technologiestiftung Berlin
+                github.com/berlin/haushaltsdaten
               </a>
             </p>
           </div>
