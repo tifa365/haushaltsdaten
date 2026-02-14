@@ -151,7 +151,7 @@ export const Footer: FC = () => {
           <ul className="flex items-center mt-2 sm:mt-0 flex-wrap gap-x-4 gap-y-2">
             <li>
               <a
-                href="https://github.com/berlin/haushaltsdaten"
+                href="https://github.com/tifa365/haushaltsdaten"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm hover:text-brand transition-colors text-gray-700 focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 focus-visible:ring-offset-white rounded-[1px] outline-none"
