@@ -209,7 +209,7 @@ export const Search: FC = () => {
               <br></br>
               Ein Beispiel für eine allgemeine Suche nach Kapiteln wäre
               {
-                '„Senatsverwaltung für Inneres, Digitalisierung und Sport" mit über 500 Ergebnissen. Eine detailliertere Suche nach Stichworten wäre zum Beispiel „Sporthalle" (91 Ergebnisse) oder „Kita Spandau" (20'
+                '„Senatsverwaltung für Inneres und Sport" mit über 46.852 Ergebnissen. Eine detailliertere Suche nach Stichworten wäre zum Beispiel „Sporthalle" (46 Ergebnisse) oder „Kita Spandau" (3230 Ergebnisse)'
               }
               Ergebnisse).
             </div>
